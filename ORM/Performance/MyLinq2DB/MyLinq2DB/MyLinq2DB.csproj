@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="linq2db" Version="2.9.7" />
+      <PackageReference Include="linq2db.SqlServer" Version="2.9.7" />
+      <PackageReference Include="linq2db.t4models" Version="2.9.7" />
+      <PackageReference Include="linq2db.Tools" Version="2.9.7" />
+      <PackageReference Include="Microsoft.SqlServer.Types" Version="14.0.1016.290" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Model\Model.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+        <LastGenOutput>Model.generated.cs</LastGenOutput>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Model\Model.cs">
+        <DependentUpon>Model.tt</DependentUpon>
+      </Compile>
+      <Compile Update="Model\Model.generated.cs">
+        <DependentUpon>Model.tt</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

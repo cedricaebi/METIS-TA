@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj": {}
+  },
+  "projects": {
+    "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
+        "projectName": "MyLinq2DB",
+        "projectPath": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
+        "packagesPath": "/Users/cedric/.nuget/packages/",
+        "outputPath": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/cedric/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.SqlServer.Types": {
+              "target": "Package",
+              "version": "[14.0.1016.290, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[2.9.7, )"
+            },
+            "linq2db.SqlServer": {
+              "target": "Package",
+              "version": "[2.9.7, )"
+            },
+            "linq2db.Tools": {
+              "target": "Package",
+              "version": "[2.9.7, )"
+            },
+            "linq2db.t4models": {
+              "target": "Package",
+              "version": "[2.9.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

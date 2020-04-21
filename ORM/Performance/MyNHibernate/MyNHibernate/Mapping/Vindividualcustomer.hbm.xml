@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Vindividualcustomer" table="vIndividualCustomer" lazy="true" >
+    <property name="Businessentityid">
+      <column name="BusinessEntityID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Title">
+      <column name="Title" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Firstname">
+      <column name="FirstName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Middlename">
+      <column name="MiddleName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Lastname">
+      <column name="LastName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Suffix">
+      <column name="Suffix" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Phonenumber">
+      <column name="PhoneNumber" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Phonenumbertype">
+      <column name="PhoneNumberType" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emailaddress">
+      <column name="EmailAddress" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emailpromotion">
+      <column name="EmailPromotion" sql-type="int" not-null="true" />
+    </property>
+    <property name="Addresstype">
+      <column name="AddressType" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Addressline1">
+      <column name="AddressLine1" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Addressline2">
+      <column name="AddressLine2" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="City">
+      <column name="City" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Stateprovincename">
+      <column name="StateProvinceName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Postalcode">
+      <column name="PostalCode" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Countryregionname">
+      <column name="CountryRegionName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Demographics">
+      <column name="Demographics" sql-type="xml" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

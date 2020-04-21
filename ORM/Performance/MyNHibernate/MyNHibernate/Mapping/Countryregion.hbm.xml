@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Countryregion" table="CountryRegion" lazy="true" >
+    <id name="Countryregioncode" column="CountryRegionCode" />
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+    <set name="Stateprovince">
+      <key column="CountryRegionCode" />
+      <one-to-many class="Stateprovince" />
+    </set>
+  </class>
+</hibernate-mapping>

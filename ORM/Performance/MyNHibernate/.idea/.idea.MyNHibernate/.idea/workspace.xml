@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1747ccd-440a-4bc3-b9c2-6a388e344973" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../EFCore/.idea/.idea.EFCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EFCore/.idea/.idea.EFCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyNHibernate/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyNHibernate/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyNHibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyNHibernate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Domain/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Domain/Department.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Domain/Document.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Domain/Emailaddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Domain/Employeedepartmenthistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Department.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Department.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Document.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Emailaddress.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Employee.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Employee.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Employeedepartmenthistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Illustration.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Illustration.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Location.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Location.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Person.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Person.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Phonenumbertype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Phonenumbertype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/Mapping/Product.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Mapping/Product.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RawSQL/.idea/.idea.RawSQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RawSQL/.idea/.idea.RawSQL/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96886E6A-AFDC-4996-BBBE-AC81F6520499/73/bf954732/Configuration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Culture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96886E6A-AFDC-4996-BBBE-AC81F6520499/96/ab9f5655/ErrorCounter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Addresstype.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productcosthistory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Currency.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productmodel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Creditcard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Department.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Vsalespersonsalesbyfiscalyears.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Illustration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productmodelillustration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Countryregion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Location.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productdescription.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Contacttype.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productlistpricehistory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productdocument.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Countryregioncurrency.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Currencyrate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productmodelproductdescriptionculture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Employee.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Productinventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Address.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Employeepayhistory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyNHibernate/Domain/Businessentity.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Product.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Productinventory.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Program.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/VsalespersonsalesbyfiscalyearsMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/WorkorderMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/AddresstypeMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/ContacttypeMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/AddressMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/IllustrationMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/DepartmentMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/BillofmaterialsMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/BusinessentityMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/CountryregionMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/CreditcardMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/CultureMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/CurrencyMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/CurrencyrateMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/CustomerMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/DocumentMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/EmailaddressMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/EmployeeMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/LocationMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/PersonMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/PhonenumbertypeMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/ProductcategoryMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/ProductdescriptionMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/ProductMap.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Vsalespersonsalesbyfiscalyears.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Vsalespersonsalesbyfiscalyears.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Address.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Addresstype.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Businessentity.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Contacttype.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Countryregion.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Creditcard.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Culture.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Currency.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Currency.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Currencyrate.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Customer.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Productdocument.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Document.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Document.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Domain/Department.cs" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Employee.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Illustration.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Location.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Phonenumbertype.hbm.xml" />
+        <option value="$PROJECT_DIR$/MyNHibernate/Mapping/Product.hbm.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZLyMzxUIbTjHQfiz5g2K7on9m2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyNHibernate" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MyNHibernate/MyNHibernate.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1747ccd-440a-4bc3-b9c2-6a388e344973" name="Default Changelist" comment="" />
+      <created>1584632624748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584632624748</updated>
+      <workItem from="1584632627764" duration="1203000" />
+      <workItem from="1584638223856" duration="307000" />
+      <workItem from="1584954330116" duration="37000" />
+      <workItem from="1585040771941" duration="3812000" />
+      <workItem from="1585049611734" duration="274000" />
+      <workItem from="1585149028164" duration="438000" />
+      <workItem from="1585150659534" duration="25000" />
+      <workItem from="1585151117585" duration="574000" />
+      <workItem from="1585233186742" duration="1052000" />
+      <workItem from="1585646962739" duration="80000" />
+      <workItem from="1585647064322" duration="48000" />
+      <workItem from="1585656097344" duration="1017000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="179" key="#SQL_Dialects" timestamp="1584648049132">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="440" y="179" key="#SQL_Dialects/0.23.1680.981@0.23.1680.981" timestamp="1584648049132" />
+    <state width="1638" height="217" key="GridCell.Tab.0.bottom" timestamp="1585657115331">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="217" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1585657115331" />
+    <state width="1638" height="218" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1585049884778" />
+    <state width="1638" height="217" key="GridCell.Tab.0.center" timestamp="1585657115331">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="217" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1585657115331" />
+    <state width="1638" height="218" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1585049884778" />
+    <state width="1638" height="217" key="GridCell.Tab.0.left" timestamp="1585657115331">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="217" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1585657115331" />
+    <state width="1638" height="218" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1585049884777" />
+    <state width="1638" height="217" key="GridCell.Tab.0.right" timestamp="1585657115331">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="217" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1585657115331" />
+    <state width="1638" height="218" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1585049884778" />
+    <state width="1638" height="189" key="GridCell.Tab.1.bottom" timestamp="1584648909299">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.1.bottom/0.23.1680.980@0.23.1680.980" timestamp="1584648909299" />
+    <state width="1638" height="189" key="GridCell.Tab.1.bottom/0.23.1680.981@0.23.1680.981" timestamp="1584648175349" />
+    <state width="1638" height="189" key="GridCell.Tab.1.center" timestamp="1584648909298">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.1.center/0.23.1680.980@0.23.1680.980" timestamp="1584648909298" />
+    <state width="1638" height="189" key="GridCell.Tab.1.center/0.23.1680.981@0.23.1680.981" timestamp="1584648175349" />
+    <state width="1638" height="189" key="GridCell.Tab.1.left" timestamp="1584648909298">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.1.left/0.23.1680.980@0.23.1680.980" timestamp="1584648909298" />
+    <state width="1638" height="189" key="GridCell.Tab.1.left/0.23.1680.981@0.23.1680.981" timestamp="1584648175349" />
+    <state width="1638" height="189" key="GridCell.Tab.1.right" timestamp="1584648909298">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.1.right/0.23.1680.980@0.23.1680.980" timestamp="1584648909298" />
+    <state width="1638" height="189" key="GridCell.Tab.1.right/0.23.1680.981@0.23.1680.981" timestamp="1584648175349" />
+    <state width="1638" height="189" key="GridCell.Tab.2.bottom" timestamp="1584648909299">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.2.bottom/0.23.1680.980@0.23.1680.980" timestamp="1584648909299" />
+    <state width="1638" height="189" key="GridCell.Tab.2.bottom/0.23.1680.981@0.23.1680.981" timestamp="1584648175350" />
+    <state width="1638" height="189" key="GridCell.Tab.2.center" timestamp="1584648909299">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.2.center/0.23.1680.980@0.23.1680.980" timestamp="1584648909299" />
+    <state width="1638" height="189" key="GridCell.Tab.2.center/0.23.1680.981@0.23.1680.981" timestamp="1584648175350" />
+    <state width="1638" height="189" key="GridCell.Tab.2.left" timestamp="1584648909299">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.2.left/0.23.1680.980@0.23.1680.980" timestamp="1584648909299" />
+    <state width="1638" height="189" key="GridCell.Tab.2.left/0.23.1680.981@0.23.1680.981" timestamp="1584648175349" />
+    <state width="1638" height="189" key="GridCell.Tab.2.right" timestamp="1584648909299">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.2.right/0.23.1680.980@0.23.1680.980" timestamp="1584648909299" />
+    <state width="1638" height="189" key="GridCell.Tab.2.right/0.23.1680.981@0.23.1680.981" timestamp="1584648175350" />
+    <state width="1638" height="189" key="GridCell.Tab.3.bottom" timestamp="1584648909300">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.3.bottom/0.23.1680.980@0.23.1680.980" timestamp="1584648909300" />
+    <state width="1638" height="189" key="GridCell.Tab.3.bottom/0.23.1680.981@0.23.1680.981" timestamp="1584648175351" />
+    <state width="1638" height="189" key="GridCell.Tab.3.center" timestamp="1584648909300">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.3.center/0.23.1680.980@0.23.1680.980" timestamp="1584648909300" />
+    <state width="1638" height="189" key="GridCell.Tab.3.center/0.23.1680.981@0.23.1680.981" timestamp="1584648175350" />
+    <state width="1638" height="189" key="GridCell.Tab.3.left" timestamp="1584648909300">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.3.left/0.23.1680.980@0.23.1680.980" timestamp="1584648909300" />
+    <state width="1638" height="189" key="GridCell.Tab.3.left/0.23.1680.981@0.23.1680.981" timestamp="1584648175350" />
+    <state width="1638" height="189" key="GridCell.Tab.3.right" timestamp="1584648909300">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.3.right/0.23.1680.980@0.23.1680.980" timestamp="1584648909300" />
+    <state width="1638" height="189" key="GridCell.Tab.3.right/0.23.1680.981@0.23.1680.981" timestamp="1584648175351" />
+    <state width="1638" height="189" key="GridCell.Tab.4.bottom" timestamp="1584648909301">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.4.bottom/0.23.1680.980@0.23.1680.980" timestamp="1584648909301" />
+    <state width="1638" height="189" key="GridCell.Tab.4.bottom/0.23.1680.981@0.23.1680.981" timestamp="1584648175352" />
+    <state width="1638" height="189" key="GridCell.Tab.4.center" timestamp="1584648909301">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.4.center/0.23.1680.980@0.23.1680.980" timestamp="1584648909301" />
+    <state width="1638" height="189" key="GridCell.Tab.4.center/0.23.1680.981@0.23.1680.981" timestamp="1584648175351" />
+    <state width="1638" height="189" key="GridCell.Tab.4.left" timestamp="1584648909301">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.4.left/0.23.1680.980@0.23.1680.980" timestamp="1584648909301" />
+    <state width="1638" height="189" key="GridCell.Tab.4.left/0.23.1680.981@0.23.1680.981" timestamp="1584648175351" />
+    <state width="1638" height="189" key="GridCell.Tab.4.right" timestamp="1584648909301">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="189" key="GridCell.Tab.4.right/0.23.1680.980@0.23.1680.980" timestamp="1584648909301" />
+    <state width="1638" height="189" key="GridCell.Tab.4.right/0.23.1680.981@0.23.1680.981" timestamp="1584648175352" />
+    <state x="498" y="270" width="837" height="550" key="find.popup" timestamp="1584648432911">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="498" y="270" width="837" height="550" key="find.popup/0.23.1680.981@0.23.1680.981" timestamp="1584648432911" />
+  </component>
+</project>

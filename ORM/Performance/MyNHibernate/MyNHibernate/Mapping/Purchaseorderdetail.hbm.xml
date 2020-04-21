@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Purchaseorderdetail" table="PurchaseOrderDetail" lazy="true" >
+    <composite-id>
+      <key-property name="Purchaseorderid" column="PurchaseOrderID" />
+      <key-property name="Purchaseorderdetailid" column="PurchaseOrderDetailID" />
+    </composite-id>
+    <many-to-one name="Purchaseorderheader">
+      <column name="PurchaseOrderID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Product">
+      <column name="ProductID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <property name="Duedate">
+      <column name="DueDate" sql-type="datetime" not-null="true" />
+    </property>
+    <property name="Orderqty">
+      <column name="OrderQty" sql-type="smallint" not-null="true" />
+    </property>
+    <property name="Unitprice">
+      <column name="UnitPrice" sql-type="money" not-null="true" />
+    </property>
+    <property name="Linetotal">
+      <column name="LineTotal" sql-type="money" not-null="true" />
+    </property>
+    <property name="Receivedqty">
+      <column name="ReceivedQty" sql-type="decimal" not-null="true" />
+    </property>
+    <property name="Rejectedqty">
+      <column name="RejectedQty" sql-type="decimal" not-null="true" />
+    </property>
+    <property name="Stockedqty">
+      <column name="StockedQty" sql-type="decimal" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

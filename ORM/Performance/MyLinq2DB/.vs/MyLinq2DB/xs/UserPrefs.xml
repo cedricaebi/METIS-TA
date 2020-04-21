@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{2006F273-DA58-4D3D-83E7-106F02574974}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyLinq2DB/Model/Model.tt">
+    <Files>
+      <File FileName="MyLinq2DB/Model/Model.tt" Line="51" Column="57" />
+      <File FileName="../../../../.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.Firebird.tt.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyLinq2DB" expanded="True">
+            <Node name="MyLinq2DB" expanded="True">
+              <Node name="LinqToDB.Templates" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="Model.tt" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MyLinq2DB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

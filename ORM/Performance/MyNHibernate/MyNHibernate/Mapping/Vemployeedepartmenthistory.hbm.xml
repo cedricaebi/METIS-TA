@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Vemployeedepartmenthistory" table="vEmployeeDepartmentHistory" lazy="true" >
+    <property name="Businessentityid">
+      <column name="BusinessEntityID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Title">
+      <column name="Title" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Firstname">
+      <column name="FirstName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Middlename">
+      <column name="MiddleName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Lastname">
+      <column name="LastName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Suffix">
+      <column name="Suffix" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Shift">
+      <column name="Shift" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Department">
+      <column name="Department" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Groupname">
+      <column name="GroupName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Startdate">
+      <column name="StartDate" sql-type="date" not-null="true" />
+    </property>
+    <property name="Enddate">
+      <column name="EndDate" sql-type="date" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

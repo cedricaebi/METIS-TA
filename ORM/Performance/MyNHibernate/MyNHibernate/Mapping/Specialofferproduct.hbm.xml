@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Specialofferproduct" table="SpecialOfferProduct" lazy="true" >
+    <composite-id>
+      <key-property name="Specialofferid" column="SpecialOfferID" />
+      <key-property name="Productid" column="ProductID" />
+    </composite-id>
+    <many-to-one name="Specialoffer">
+      <column name="SpecialOfferID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Product">
+      <column name="ProductID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <property name="Rowguid">
+      <column name="rowguid" sql-type="uniqueidentifier" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+    <set name="Salesorderdetail">
+      <key column="ProductID" />
+      <one-to-many class="Salesorderdetail" />
+    </set>
+  </class>
+</hibernate-mapping>
