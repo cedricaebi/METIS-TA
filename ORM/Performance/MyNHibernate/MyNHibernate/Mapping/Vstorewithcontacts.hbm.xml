@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Vstorewithcontacts" table="vStoreWithContacts" lazy="true" >
+    <property name="Businessentityid">
+      <column name="BusinessEntityID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Contacttype">
+      <column name="ContactType" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Title">
+      <column name="Title" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Firstname">
+      <column name="FirstName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Middlename">
+      <column name="MiddleName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Lastname">
+      <column name="LastName" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Suffix">
+      <column name="Suffix" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Phonenumber">
+      <column name="PhoneNumber" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Phonenumbertype">
+      <column name="PhoneNumberType" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emailaddress">
+      <column name="EmailAddress" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emailpromotion">
+      <column name="EmailPromotion" sql-type="int" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

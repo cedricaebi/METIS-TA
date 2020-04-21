@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Currencyrate" table="CurrencyRate" lazy="true" >
+    <id name="Currencyrateid" column="CurrencyRateID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Currency">
+      <column name="FromCurrencyCode" sql-type="nchar" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Currency">
+      <column name="ToCurrencyCode" sql-type="nchar" not-null="true" />
+    </many-to-one>
+    <property name="Currencyratedate">
+      <column name="CurrencyRateDate" sql-type="datetime" not-null="true" />
+    </property>
+    <property name="Averagerate">
+      <column name="AverageRate" sql-type="money" not-null="true" />
+    </property>
+    <property name="Endofdayrate">
+      <column name="EndOfDayRate" sql-type="money" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+    <set name="Salesorderheader">
+      <key column="CurrencyRateID" />
+      <one-to-many class="Salesorderheader" />
+    </set>
+  </class>
+</hibernate-mapping>

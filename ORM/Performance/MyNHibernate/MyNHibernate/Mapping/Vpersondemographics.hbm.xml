@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Vpersondemographics" table="vPersonDemographics" lazy="true" >
+    <property name="Businessentityid">
+      <column name="BusinessEntityID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Totalpurchaseytd">
+      <column name="TotalPurchaseYTD" sql-type="money" not-null="false" />
+    </property>
+    <property name="Datefirstpurchase">
+      <column name="DateFirstPurchase" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Birthdate">
+      <column name="BirthDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Maritalstatus">
+      <column name="MaritalStatus" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Yearlyincome">
+      <column name="YearlyIncome" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Gender">
+      <column name="Gender" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Totalchildren">
+      <column name="TotalChildren" sql-type="int" not-null="false" />
+    </property>
+    <property name="Numberchildrenathome">
+      <column name="NumberChildrenAtHome" sql-type="int" not-null="false" />
+    </property>
+    <property name="Education">
+      <column name="Education" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Occupation">
+      <column name="Occupation" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Homeownerflag">
+      <column name="HomeOwnerFlag" sql-type="bit" not-null="false" />
+    </property>
+    <property name="Numbercarsowned">
+      <column name="NumberCarsOwned" sql-type="int" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

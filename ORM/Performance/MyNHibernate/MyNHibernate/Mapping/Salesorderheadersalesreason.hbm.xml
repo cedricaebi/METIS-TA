@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Salesorderheadersalesreason" table="SalesOrderHeaderSalesReason" lazy="true" >
+    <composite-id>
+      <key-property name="Salesorderid" column="SalesOrderID" />
+      <key-property name="Salesreasonid" column="SalesReasonID" />
+    </composite-id>
+    <many-to-one name="Salesorderheader">
+      <column name="SalesOrderID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Salesreason">
+      <column name="SalesReasonID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

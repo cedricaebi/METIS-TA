@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca205aaa-39e1-4df5-ad9d-aa4482991eef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Album.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Artist.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/ChinookContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Employee.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Genre.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Invoice.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/InvoiceLine.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/MediaType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Playlist.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/PlaylistTrack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EFCore/Model/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/.idea/.idea.EFCore/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/EFCore.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Address.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/AddressType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/AdventureWorks2017Context.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/AwbuildVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/BillOfMaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/BusinessEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/BusinessEntityAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/BusinessEntityContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ContactType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/CountryRegion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/CountryRegionCurrency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/CreditCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Culture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Currency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/CurrencyRate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Customer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/DatabaseLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Department.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/EmailAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Employee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/EmployeeDepartmentHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/EmployeePayHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ErrorLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Illustration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/JobCandidate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Location.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Password.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/PersonCreditCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/PersonPhone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/PhoneNumberType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductCostHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductInventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductListPriceHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductModelIllustration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductModelProductDescriptionCulture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductPhoto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductProductPhoto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductReview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductSubcategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ProductVendor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/PurchaseOrderDetail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/PurchaseOrderHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesOrderDetail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesOrderHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesOrderHeaderSalesReason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesPersonQuotaHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesReason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesTaxRate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesTerritory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SalesTerritoryHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ScrapReason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Shift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ShipMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/ShoppingCartItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SpecialOffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/SpecialOfferProduct.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/StateProvince.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Store.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/TransactionHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/TransactionHistoryArchive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/UnitMeasure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VAdditionalContactInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VEmployee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VEmployeeDepartment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VEmployeeDepartmentHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VIndividualCustomer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VJobCandidate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VJobCandidateEducation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VJobCandidateEmployment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VPersonDemographics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VProductAndDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VProductModelCatalogDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VProductModelInstructions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VSalesPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VSalesPersonSalesByFiscalYears.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VStateProvinceCountryRegion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VStoreWithAddresses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VStoreWithContacts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VStoreWithDemographics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VVendorWithAddresses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/VVendorWithContacts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/Vendor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/WorkOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Model/WorkOrderRouting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Queries/GroupByQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Queries/JoinQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Queries/OrderBy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Queries/SelectQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/Queries/SubQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/EFCore.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/EFCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/EFCore.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/EFCore.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/EFCore.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/EFCore.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/EFCore.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/EFCore.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/EFCore.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/EFCore.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../EFCore/EFCore/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.idea/.idea.MyDapper/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/.vs/MyDapper/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Address.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/AddressType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/AwbuildVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/BillOfMaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/BusinessEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/BusinessEntityAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/BusinessEntityContact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ContactType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/CountryRegion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/CountryRegionCurrency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/CreditCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Culture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Currency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/CurrencyRate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Custom/AddressGroup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Customer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/DatabaseLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Department.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/EmailAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Employee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/EmployeeDepartmentHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/EmployeePayHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ErrorLog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Illustration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/JobCandidate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Location.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Password.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/PersonCreditCard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/PersonPhone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/PhoneNumberType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductCostHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductInventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductListPriceHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductModelIllustration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductModelProductDescriptionCulture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductPhoto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductProductPhoto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductReview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductSubcategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ProductVendor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/PurchaseOrderDetail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/PurchaseOrderHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesOrderDetail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesOrderHeader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesOrderHeaderSalesReason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesPersonQuotaHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesReason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesTaxRate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesTerritory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SalesTerritoryHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ScrapReason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Shift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ShipMethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/ShoppingCartItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SpecialOffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/SpecialOfferProduct.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/StateProvince.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Store.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/TransactionHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/TransactionHistoryArchive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/UnitMeasure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VAdditionalContactInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VEmployee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VEmployeeDepartment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VEmployeeDepartmentHistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VIndividualCustomer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VJobCandidate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VJobCandidateEducation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VJobCandidateEmployment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VPersonDemographics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VProductAndDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VProductModelCatalogDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VProductModelInstructions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VSalesPerson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VSalesPersonSalesByFiscalYears.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VStateProvinceCountryRegion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VStoreWithAddresses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VStoreWithContacts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VStoreWithDemographics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VVendorWithAddresses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/VVendorWithContacts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/Vendor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/WorkOrder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Model/WorkOrderRouting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/MyDapper.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Queries/GroupByQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Queries/JoinQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Queries/OrderBy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Queries/SelectQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/Queries/SubQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/Dapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/MyDapper.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/MyDapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/MyDapper.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/MyDapper.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/MyDapper.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/Debug/netcoreapp3.1/MyDapper.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/MyDapper.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/MyDapper.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/MyDapper.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/MyDapper.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyDapper/MyDapper/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.idea/.idea.MyLinq2DB/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.vs/MyLinq2DB/xs/UserPrefs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.vs/MyLinq2DB/xs/project-cache/MyLinq2DB-Debug.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.vs/MyLinq2DB/xs/sqlite3/db.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/.vs/MyLinq2DB/xs/sqlite3/storage.ide" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/ConnectionStringSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Model/Model.generated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Model/Model.tt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Queries/GroupByQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Queries/JoinQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Queries/OrderBy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Queries/SelectQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/Queries/SubQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Microsoft.SqlServer.Types.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/linq2db.Tools.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/linq2db.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/Model/GeneratedTransformation.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/Model/GeneratedTransformation.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyLinq2DB/MyLinq2DB/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/.idea/.idea.MyNHibernate/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Address.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Addresstype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Billofmaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Businessentity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Businessentityaddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Businessentitycontact.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Contacttype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Countryregion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Countryregioncurrency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Creditcard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Culture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Currency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Currencyrate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Customer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Department.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Employee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Employeepayhistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Illustration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Jobcandidate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Location.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Password.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Person.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Personcreditcard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Personphone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Phonenumbertype.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productcategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productcosthistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productdescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productdocument.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productinventory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productlistpricehistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productmodel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productmodelillustration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productmodelproductdescriptionculture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productphoto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productproductphoto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productreview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productsubcategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Productvendor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Purchaseorderdetail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Purchaseorderheader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesorderdetail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesorderheader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesorderheadersalesreason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesperson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salespersonquotahistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesreason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salestaxrate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesterritory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Salesterritoryhistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Scrapreason.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Shift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Shipmethod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Shoppingcartitem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Specialoffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Specialofferproduct.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Stateprovince.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Store.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Transactionhistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Transactionhistoryarchive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Unitmeasure.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vadditionalcontactinfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vemployee.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vemployeedepartment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vemployeedepartmenthistory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vendor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vindividualcustomer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vjobcandidate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vjobcandidateeducation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vjobcandidateemployment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vpersondemographics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vproductanddescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vproductmodelcatalogdescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vproductmodelinstructions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vsalesperson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vsalespersonsalesbyfiscalyears.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vstateprovincecountryregion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vstorewithaddresses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vstorewithcontacts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vstorewithdemographics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vvendorwithaddresses.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Vvendorwithcontacts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Workorder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Domain/Workorderrouting.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Address.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Addresstype.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Billofmaterials.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Businessentity.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Businessentityaddress.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Businessentitycontact.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Contacttype.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Countryregion.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Countryregioncurrency.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Creditcard.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Culture.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Currency.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Currencyrate.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Customer.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Department.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Employee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Employeepayhistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Illustration.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Jobcandidate.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Location.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Password.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Personcreditcard.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Personphone.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Phonenumbertype.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Product.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productcategory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productcosthistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productdescription.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productdocument.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productinventory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productlistpricehistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productmodel.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productmodelillustration.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productmodelproductdescriptionculture.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productphoto.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productproductphoto.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productreview.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productsubcategory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Productvendor.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Purchaseorderdetail.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Purchaseorderheader.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesorderdetail.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesorderheader.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesorderheadersalesreason.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesperson.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salespersonquotahistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesreason.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salestaxrate.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesterritory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Salesterritoryhistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Scrapreason.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Shift.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Shipmethod.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Shoppingcartitem.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Specialoffer.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Specialofferproduct.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Stateprovince.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Store.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Transactionhistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Transactionhistoryarchive.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Unitmeasure.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vadditionalcontactinfo.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vemployee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vemployeedepartment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vemployeedepartmenthistory.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vendor.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vindividualcustomer.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vjobcandidate.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vjobcandidateeducation.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vjobcandidateemployment.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vpersondemographics.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vproductanddescription.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vproductmodelcatalogdescription.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vproductmodelinstructions.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vsalesperson.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vsalespersonsalesbyfiscalyears.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vstateprovincecountryregion.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vstorewithaddresses.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vstorewithcontacts.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vstorewithdemographics.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vvendorwithaddresses.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Vvendorwithcontacts.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Workorder.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Mapping/Workorderrouting.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/MyNHibernate.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Antlr3.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Iesi.Collections.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/NHibernate.NetCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/NHibernate.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Remotion.Linq.EagerFetching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/Remotion.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/System.ComponentModel.Composition.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyNHibernate/MyNHibernate/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/.idea/.idea.RawSQL/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/Queries/GroupByQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/Queries/JoinQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/Queries/OrderBy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/Queries/SelectQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/Queries/SubQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/RawSQL.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/RawSQL.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/RawSQL.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/RawSQL.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/RawSQL.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RawSQL/RawSQL/obj/project.packagespec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../MyDapper/MyDapper/Model/Custom/AddressGroup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../MyNHibernate/MyNHibernate/Domain/Address.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Queries/SubQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Queries/OrderBy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Queries/GroupByQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Model/Customer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4EC280F0-D2D4-40D6-B00B-5BE49800DB1A/98/RelationalSqlTranslatingExpressionVisitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Model/Album.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EFCore/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EFCore/Models/MyDbContext.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Queries/GroupByQuery.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Queries/OrderBy.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Queries/SubQuery.cs" />
+        <option value="$PROJECT_DIR$/EFCore/EFCore.csproj" />
+        <option value="$PROJECT_DIR$/EFCore/Program.cs" />
+        <option value="$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZLngssrCojRQWp3MHKzZEpe9UQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EFCore" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/EFCore/EFCore.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca205aaa-39e1-4df5-ad9d-aa4482991eef" name="Default Changelist" comment="" />
+      <created>1584627355902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584627355902</updated>
+      <workItem from="1584627357810" duration="2413000" />
+      <workItem from="1584632082621" duration="351000" />
+      <workItem from="1584634968511" duration="839000" />
+      <workItem from="1584638223855" duration="8000" />
+      <workItem from="1584645119181" duration="69000" />
+      <workItem from="1584646200903" duration="529000" />
+      <workItem from="1584647532854" duration="482000" />
+      <workItem from="1585054754770" duration="342000" />
+      <workItem from="1585061970459" duration="242000" />
+      <workItem from="1585146038189" duration="472000" />
+      <workItem from="1585212372250" duration="292000" />
+      <workItem from="1585212685351" duration="3999000" />
+      <workItem from="1585218311275" duration="121000" />
+      <workItem from="1585222514993" duration="119000" />
+      <workItem from="1585224586401" duration="713000" />
+      <workItem from="1585225402359" duration="306000" />
+      <workItem from="1585226151749" duration="7000" />
+      <workItem from="1585231356567" duration="511000" />
+      <workItem from="1585231897886" duration="800000" />
+      <workItem from="1585648960524" duration="154000" />
+      <workItem from="1585649536460" duration="30000" />
+      <workItem from="1585651699430" duration="1334000" />
+      <workItem from="1585653742264" duration="15000" />
+      <workItem from="1585654054496" duration="791000" />
+      <workItem from="1585655641187" duration="12000" />
+      <workItem from="1585656453911" duration="646000" />
+      <workItem from="1587479291939" duration="719000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="326" key="GridCell.Tab.0.bottom" timestamp="1585653330637">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.0.bottom/0.23.1680.980@0.23.1680.980" timestamp="1585653330637" />
+    <state width="1638" height="264" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1585225708158" />
+    <state width="1638" height="326" key="GridCell.Tab.0.center" timestamp="1585653330636">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.0.center/0.23.1680.980@0.23.1680.980" timestamp="1585653330636" />
+    <state width="1638" height="264" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1585225708157" />
+    <state width="1638" height="326" key="GridCell.Tab.0.left" timestamp="1585653330636">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.0.left/0.23.1680.980@0.23.1680.980" timestamp="1585653330636" />
+    <state width="1638" height="264" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1585225708157" />
+    <state width="1638" height="326" key="GridCell.Tab.0.right" timestamp="1585653330637">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.0.right/0.23.1680.980@0.23.1680.980" timestamp="1585653330637" />
+    <state width="1638" height="264" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1585225708158" />
+    <state width="1638" height="326" key="GridCell.Tab.1.bottom" timestamp="1585653330638">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.bottom/0.23.1680.980@0.23.1680.980" timestamp="1585653330638" />
+    <state width="1638" height="326" key="GridCell.Tab.1.center" timestamp="1585653330637">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.center/0.23.1680.980@0.23.1680.980" timestamp="1585653330637" />
+    <state width="1638" height="326" key="GridCell.Tab.1.left" timestamp="1585653330637">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.left/0.23.1680.980@0.23.1680.980" timestamp="1585653330637" />
+    <state width="1638" height="326" key="GridCell.Tab.1.right" timestamp="1585653330637">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.1.right/0.23.1680.980@0.23.1680.980" timestamp="1585653330637" />
+    <state width="1638" height="326" key="GridCell.Tab.2.bottom" timestamp="1585653330638">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.bottom/0.23.1680.980@0.23.1680.980" timestamp="1585653330638" />
+    <state width="1638" height="326" key="GridCell.Tab.2.center" timestamp="1585653330638">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.center/0.23.1680.980@0.23.1680.980" timestamp="1585653330638" />
+    <state width="1638" height="326" key="GridCell.Tab.2.left" timestamp="1585653330638">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.left/0.23.1680.980@0.23.1680.980" timestamp="1585653330638" />
+    <state width="1638" height="326" key="GridCell.Tab.2.right" timestamp="1585653330638">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.2.right/0.23.1680.980@0.23.1680.980" timestamp="1585653330638" />
+    <state width="1638" height="326" key="GridCell.Tab.3.bottom" timestamp="1585653330639">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.bottom/0.23.1680.980@0.23.1680.980" timestamp="1585653330639" />
+    <state width="1638" height="326" key="GridCell.Tab.3.center" timestamp="1585653330639">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.center/0.23.1680.980@0.23.1680.980" timestamp="1585653330639" />
+    <state width="1638" height="326" key="GridCell.Tab.3.left" timestamp="1585653330639">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.left/0.23.1680.980@0.23.1680.980" timestamp="1585653330639" />
+    <state width="1638" height="326" key="GridCell.Tab.3.right" timestamp="1585653330639">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.3.right/0.23.1680.980@0.23.1680.980" timestamp="1585653330639" />
+    <state width="1638" height="326" key="GridCell.Tab.4.bottom" timestamp="1585653330640">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.4.bottom/0.23.1680.980@0.23.1680.980" timestamp="1585653330640" />
+    <state width="1638" height="326" key="GridCell.Tab.4.center" timestamp="1585653330640">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.4.center/0.23.1680.980@0.23.1680.980" timestamp="1585653330640" />
+    <state width="1638" height="326" key="GridCell.Tab.4.left" timestamp="1585653330640">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.4.left/0.23.1680.980@0.23.1680.980" timestamp="1585653330640" />
+    <state width="1638" height="326" key="GridCell.Tab.4.right" timestamp="1585653330640">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state width="1638" height="326" key="GridCell.Tab.4.right/0.23.1680.980@0.23.1680.980" timestamp="1585653330640" />
+    <state x="440" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1584632193770">
+      <screen x="0" y="23" width="1680" height="980" />
+    </state>
+    <state x="440" y="252" key="Rider.ProjectTemplateDialog.Size/0.23.1680.980@0.23.1680.980" timestamp="1584632193770" />
+    <state x="334" y="152" key="SettingsEditor" timestamp="1587479310076">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="334" y="152" key="SettingsEditor/0.23.1680.981@0.23.1680.981" timestamp="1587479310076" />
+    <state x="466" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1585225618677">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="466" y="209" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.981@0.23.1680.981" timestamp="1585225618677" />
+    <state x="503" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1584627856816">
+      <screen x="0" y="23" width="1680" height="981" />
+    </state>
+    <state x="503" y="237" width="672" height="678" key="search.everywhere.popup/0.23.1680.981@0.23.1680.981" timestamp="1584627856816" />
+  </component>
+</project>
