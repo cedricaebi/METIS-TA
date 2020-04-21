@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Employeepayhistory" table="EmployeePayHistory" lazy="true" >
+    <composite-id>
+      <key-property name="Businessentityid" column="BusinessEntityID" />
+      <key-property name="Ratechangedate" column="RateChangeDate" />
+    </composite-id>
+    <many-to-one name="Employee">
+      <column name="BusinessEntityID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <property name="Rate">
+      <column name="Rate" sql-type="money" not-null="true" />
+    </property>
+    <property name="Payfrequency">
+      <column name="PayFrequency" sql-type="tinyint" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

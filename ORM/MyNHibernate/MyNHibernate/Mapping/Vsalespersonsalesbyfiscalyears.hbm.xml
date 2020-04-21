@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Vsalespersonsalesbyfiscalyears" table="vSalesPersonSalesByFiscalYears" lazy="true" >
+    <property name="Salespersonid">
+      <column name="SalesPersonID" sql-type="int" not-null="false" />
+    </property>
+    <property name="Fullname">
+      <column name="FullName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Jobtitle">
+      <column name="JobTitle" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Salesterritory">
+      <column name="SalesTerritory" sql-type="nvarchar" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

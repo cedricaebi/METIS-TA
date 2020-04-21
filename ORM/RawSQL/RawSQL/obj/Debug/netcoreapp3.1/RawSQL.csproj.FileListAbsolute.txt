@@ -1,0 +1,17 @@
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.deps.json
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.runtimeconfig.json
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.runtimeconfig.dev.json
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/RawSQL.pdb
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csprojAssemblyReference.cache
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.AssemblyInfoInputs.cache
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.AssemblyInfo.cs
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csproj.CopyComplete
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.dll
+/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.pdb

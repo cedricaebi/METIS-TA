@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Vjobcandidateemployment" table="vJobCandidateEmployment" lazy="true" >
+    <property name="Jobcandidateid">
+      <column name="JobCandidateID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Empstartdate">
+      <column name="Emp.StartDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Empenddate">
+      <column name="Emp.EndDate" sql-type="datetime" not-null="false" />
+    </property>
+    <property name="Emporgname">
+      <column name="Emp.OrgName" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Empjobtitle">
+      <column name="Emp.JobTitle" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Empresponsibility">
+      <column name="Emp.Responsibility" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Empfunctioncategory">
+      <column name="Emp.FunctionCategory" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Empindustrycategory">
+      <column name="Emp.IndustryCategory" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emploccountryregion">
+      <column name="Emp.Loc.CountryRegion" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emplocstate">
+      <column name="Emp.Loc.State" sql-type="nvarchar" not-null="false" />
+    </property>
+    <property name="Emploccity">
+      <column name="Emp.Loc.City" sql-type="nvarchar" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

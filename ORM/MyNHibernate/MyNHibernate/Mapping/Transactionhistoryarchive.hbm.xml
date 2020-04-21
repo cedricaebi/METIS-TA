@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Transactionhistoryarchive" table="TransactionHistoryArchive" lazy="true" >
+    <id name="Transactionid" column="TransactionID" />
+    <property name="Productid">
+      <column name="ProductID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Referenceorderid">
+      <column name="ReferenceOrderID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Referenceorderlineid">
+      <column name="ReferenceOrderLineID" sql-type="int" not-null="true" />
+    </property>
+    <property name="Transactiondate">
+      <column name="TransactionDate" sql-type="datetime" not-null="true" />
+    </property>
+    <property name="Transactiontype">
+      <column name="TransactionType" sql-type="nchar" not-null="true" />
+    </property>
+    <property name="Quantity">
+      <column name="Quantity" sql-type="int" not-null="true" />
+    </property>
+    <property name="Actualcost">
+      <column name="ActualCost" sql-type="money" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

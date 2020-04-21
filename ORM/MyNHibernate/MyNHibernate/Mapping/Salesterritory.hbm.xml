@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Salesterritory" table="SalesTerritory" lazy="true" >
+    <id name="Territoryid" column="TerritoryID">
+      <generator class="identity" />
+    </id>
+    <many-to-one name="Countryregion">
+      <column name="CountryRegionCode" sql-type="nvarchar" not-null="true" />
+    </many-to-one>
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Group">
+      <column name="Group" sql-type="nvarchar" not-null="true" />
+    </property>
+    <property name="Salesytd">
+      <column name="SalesYTD" sql-type="money" not-null="true" />
+    </property>
+    <property name="Saleslastyear">
+      <column name="SalesLastYear" sql-type="money" not-null="true" />
+    </property>
+    <property name="Costytd">
+      <column name="CostYTD" sql-type="money" not-null="true" />
+    </property>
+    <property name="Costlastyear">
+      <column name="CostLastYear" sql-type="money" not-null="true" />
+    </property>
+    <property name="Rowguid">
+      <column name="rowguid" sql-type="uniqueidentifier" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+    <set name="Customer">
+      <key column="TerritoryID" />
+      <one-to-many class="Customer" />
+    </set>
+    <set name="Salesorderheader">
+      <key column="TerritoryID" />
+      <one-to-many class="Salesorderheader" />
+    </set>
+    <set name="Salesperson">
+      <key column="TerritoryID" />
+      <one-to-many class="Salesperson" />
+    </set>
+    <set name="Salesterritoryhistory">
+      <key column="TerritoryID" />
+      <one-to-many class="Salesterritoryhistory" />
+    </set>
+  </class>
+</hibernate-mapping>

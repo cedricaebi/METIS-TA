@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.SqlServer.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/DataAnnotations.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/DataModel.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/EditableObject.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/Equatable.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/Humanizer.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.SqlTypes.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/MultipleFiles.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/NotifyDataErrorInfo.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/NotifyPropertyChanged.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/ObsoleteAttributes.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/PluralizationService.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/T4Model.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.sqlserver/2.9.7/contentFiles/any/any/LinqToDB.Templates/Validation.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.Access.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.DB2.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.Firebird.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.Informix.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.MySql.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.Oracle.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.PostgreSQL.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.SapHana.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.SqlCe.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.SQLite.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.SqlServer.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/CopyMe.Sybase.tt.txt" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/DataAnnotations.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/DataModel.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/EditableObject.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/Equatable.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/Humanizer.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Access.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Access.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.DB2.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.DB2.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Firebird.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Firebird.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Informix.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Informix.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.MySql.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Oracle.Managed.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Oracle.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Oracle.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Oracle.x64.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Oracle.x86.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.PostgreSQL.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.PostgreSQL.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SapHana.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SapHana.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlCe.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlCe.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SQLite.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SQLite.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.SqlTypes.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.SqlTypes.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.SqlServer.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Sybase.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Sybase.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.Tools.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/LinqToDB.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/MultipleFiles.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/NotifyDataErrorInfo.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/NotifyPropertyChanged.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/ObsoleteAttributes.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/PluralizationService.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/README.md" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/T4Model.ttinclude" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/linq2db.t4models/2.9.7/contentFiles/any/any/LinqToDB.Templates/Validation.ttinclude" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="MyLinq2DB" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConnectionStringSettings.cs" t="Include" />
+        <e p="LinqToDB.Templates" t="Include" />
+        <e p="Model" t="Include">
+          <e p="Model.generated.cs" t="Include" />
+          <e p="Model.tt" t="Include" />
+        </e>
+        <e p="MyLinq2DB.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="MyLinq2DB.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Queries" t="Include">
+          <e p="GroupByQuery.cs" t="Include" />
+          <e p="JoinQuery.cs" t="Include" />
+          <e p="OrderBy.cs" t="Include" />
+          <e p="SelectQuery.cs" t="Include" />
+          <e p="SubQuery.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MyLinq2DB.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_MyLinq2DB.1452127557.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+  </component>
+</project>

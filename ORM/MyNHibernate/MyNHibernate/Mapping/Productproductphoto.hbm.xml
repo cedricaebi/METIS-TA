@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Productproductphoto" table="ProductProductPhoto" lazy="true" >
+    <composite-id>
+      <key-property name="Productid" column="ProductID" />
+      <key-property name="Productphotoid" column="ProductPhotoID" />
+    </composite-id>
+    <many-to-one name="Product">
+      <column name="ProductID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Productphoto">
+      <column name="ProductPhotoID" sql-type="int" not-null="true" />
+    </many-to-one>
+    <property name="Primary">
+      <column name="Primary" sql-type="bit" not-null="true" />
+    </property>
+    <property name="Modifieddate">
+      <column name="ModifiedDate" sql-type="datetime" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>
