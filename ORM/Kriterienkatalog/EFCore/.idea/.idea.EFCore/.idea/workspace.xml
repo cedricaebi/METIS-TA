@@ -19,62 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca205aaa-39e1-4df5-ad9d-aa4482991eef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/ChinookContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Album.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Artist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Employee.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Genre.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Invoice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/InvoiceLine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/MediaType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Playlist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/PlaylistTrack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/Track.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/MySqlConnector.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCore/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCore/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/EFCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/EFCore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Album.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Album.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Artist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/ChinookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/SQLServer/ChinookContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Genre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Invoice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/InvoiceLine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/InvoiceLine.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/MediaType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/MediaType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Playlist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Playlist.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/PlaylistTrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/PlaylistTrack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Model/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Model/MySQL/Track.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Queries/GroupByQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/GroupByQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Queries/OrderBy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/OrderBy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/Queries/SubQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/SubQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/EFCore.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/EFCore.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/EFCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/EFCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/EFCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/EFCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/project.packagespec.json" afterDir="false" />
-    </list>
+    <list default="true" id="ca205aaa-39e1-4df5-ad9d-aa4482991eef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +129,7 @@
       <workItem from="1585655641187" duration="12000" />
       <workItem from="1585656453911" duration="646000" />
       <workItem from="1587479291939" duration="3762000" />
-      <workItem from="1587542521523" duration="919000" />
+      <workItem from="1587542521523" duration="1134000" />
     </task>
     <servers />
   </component>
