@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace EFCore.Model.SQLServer
+/*namespace EFCore.Model.SQLServer
 {
     public partial class ChinookContext : DbContext
     {
@@ -285,4 +285,4 @@ namespace EFCore.Model.SQLServer
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
-}
+}*/

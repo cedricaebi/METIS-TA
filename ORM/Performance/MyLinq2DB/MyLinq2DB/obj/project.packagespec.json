@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
+    "projectUniqueName": "/Users/cedric/Documents/repos/METIS-TA/ORM/Performance/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
     "projectName": "MyLinq2DB",
-    "projectPath": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
-    "outputPath": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/obj/",
+    "projectPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Performance/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
+    "outputPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Performance/MyLinq2DB/MyLinq2DB/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

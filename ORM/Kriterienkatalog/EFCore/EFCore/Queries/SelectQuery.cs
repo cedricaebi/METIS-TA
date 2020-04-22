@@ -1,7 +1,9 @@
 using System;
 using System.Linq;
 using EFCore.Model;
-using EFCore.Model.MySQL;
+using EFCore.Model.Oracle;
+using EFCore.Model.Postgres;
+using EFCore.Model.SQLite;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCore.Queries
@@ -10,7 +12,7 @@ namespace EFCore.Queries
     {
         public static void Execute()
         {
-            using var context = new ChinookContext();
+            using var context = new ModelContext();
             var query = context.Album.Where(album =>
                     EF.Functions.Like(album.Title, "B%"))
                 .Select(album => album.Title);

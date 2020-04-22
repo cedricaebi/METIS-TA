@@ -2,7 +2,9 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using EFCore.Model;
-using EFCore.Model.MySQL;
+using EFCore.Model.Oracle;
+using EFCore.Model.Postgres;
+using EFCore.Model.SQLite;
 
 namespace EFCore.Queries
 {
@@ -10,11 +12,12 @@ namespace EFCore.Queries
     {
         public static void Execute()
         {
-            using var context = new ChinookContext();
+            using var context = new ModelContext();
             
             var albums = context.Album;
             var artists = context.Artist;
 
+            /*EFCore 3.0
             var query = albums
                 .Join(artists,
                     album => album.ArtistId,
@@ -25,7 +28,20 @@ namespace EFCore.Queries
                         artist
                     })
                 .Where(aa => aa.album.Title.Equals("Let There Be Rock"));
-
+            */
+            
+            //EFCore 2.0
+            var query = albums
+                .Join(artists,
+                    album => album.Artistid,
+                    artist => artist.Artistid,
+                    (album, artist) => new
+                    {
+                        album,
+                        artist
+                    })
+                .Where(aa => aa.album.Title.Equals("Let There Be Rock"));
+            
             Console.WriteLine("JOIN-----");
             
             foreach (var queryObject in query)

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace EFCore.Model.MySQL
+/*namespace EFCore.Model.MySQL
 {
     public partial class ChinookContext : DbContext
     {
@@ -360,4 +360,4 @@ namespace EFCore.Model.MySQL
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
-}
+}*/
