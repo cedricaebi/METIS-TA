@@ -39,11 +39,11 @@
         },
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",
-          "version": "[2.2.6, )"
+          "version": "[2.0.3, )"
         },
         "Microsoft.EntityFrameworkCore.Design": {
           "target": "Package",
-          "version": "[2.2.6, )"
+          "version": "[2.0.6, )"
         },
         "Microsoft.EntityFrameworkCore.Tools": {
           "target": "Package",
