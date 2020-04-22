@@ -6,18 +6,34 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="EFCore.csproj" t="IncludeRecursive" />
         <e p="Model" t="Include">
-          <e p="Album.cs" t="Include" />
-          <e p="Artist.cs" t="Include" />
-          <e p="ChinookContext.cs" t="Include" />
-          <e p="Customer.cs" t="Include" />
-          <e p="Employee.cs" t="Include" />
-          <e p="Genre.cs" t="Include" />
-          <e p="Invoice.cs" t="Include" />
-          <e p="InvoiceLine.cs" t="Include" />
-          <e p="MediaType.cs" t="Include" />
-          <e p="Playlist.cs" t="Include" />
-          <e p="PlaylistTrack.cs" t="Include" />
-          <e p="Track.cs" t="Include" />
+          <e p="MySQL" t="Include">
+            <e p="Album.cs" t="Include" />
+            <e p="Artist.cs" t="Include" />
+            <e p="ChinookContext.cs" t="Include" />
+            <e p="Customer.cs" t="Include" />
+            <e p="Employee.cs" t="Include" />
+            <e p="Genre.cs" t="Include" />
+            <e p="Invoice.cs" t="Include" />
+            <e p="InvoiceLine.cs" t="Include" />
+            <e p="MediaType.cs" t="Include" />
+            <e p="Playlist.cs" t="Include" />
+            <e p="PlaylistTrack.cs" t="Include" />
+            <e p="Track.cs" t="Include" />
+          </e>
+          <e p="SQLServer" t="Include">
+            <e p="Album.cs" t="Include" />
+            <e p="Artist.cs" t="Include" />
+            <e p="ChinookContext.cs" t="Include" />
+            <e p="Customer.cs" t="Include" />
+            <e p="Employee.cs" t="Include" />
+            <e p="Genre.cs" t="Include" />
+            <e p="Invoice.cs" t="Include" />
+            <e p="InvoiceLine.cs" t="Include" />
+            <e p="MediaType.cs" t="Include" />
+            <e p="Playlist.cs" t="Include" />
+            <e p="PlaylistTrack.cs" t="Include" />
+            <e p="Track.cs" t="Include" />
+          </e>
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

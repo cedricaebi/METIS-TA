@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using EFCore.Model;
+using EFCore.Model.MySQL;
 using Microsoft.EntityFrameworkCore;
 
 namespace EFCore.Queries
@@ -12,8 +13,9 @@ namespace EFCore.Queries
             using var context = new ChinookContext();
             var query = context.Album.Where(album =>
                     EF.Functions.Like(album.Title, "B%"))
-                .Select(album => album.Artist);
+                .Select(album => album.Title);
                 
+            Console.WriteLine("SELECT-----");
                 
             foreach (var album in query)
             {

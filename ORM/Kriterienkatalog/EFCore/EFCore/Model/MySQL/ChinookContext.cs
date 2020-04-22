@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace EFCore.Model
+namespace EFCore.Model.MySQL
 {
     public partial class ChinookContext : DbContext
     {
@@ -32,7 +32,7 @@ namespace EFCore.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=127.0.0.1,1433;Initial Catalog=Chinook;Persist Security Info=False;User ID=sa;Password=myNiceSQLPassword123;");
+                optionsBuilder.UseMySql("server=127.0.0.1;port=3306;database=Chinook;uid=root;pwd=myNiceSQLPassword123", x => x.ServerVersion("8.0.19-mysql"));
             }
         }
 
@@ -43,11 +43,11 @@ namespace EFCore.Model
                 entity.HasIndex(e => e.ArtistId)
                     .HasName("IFK_AlbumArtistId");
 
-                entity.Property(e => e.AlbumId).ValueGeneratedNever();
-
                 entity.Property(e => e.Title)
                     .IsRequired()
-                    .HasMaxLength(160);
+                    .HasColumnType("varchar(160)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.HasOne(d => d.Artist)
                     .WithMany(p => p.Album)
@@ -58,9 +58,10 @@ namespace EFCore.Model
 
             modelBuilder.Entity<Artist>(entity =>
             {
-                entity.Property(e => e.ArtistId).ValueGeneratedNever();
-
-                entity.Property(e => e.Name).HasMaxLength(120);
+                entity.Property(e => e.Name)
+                    .HasColumnType("varchar(120)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
             });
 
             modelBuilder.Entity<Customer>(entity =>
@@ -68,35 +69,63 @@ namespace EFCore.Model
                 entity.HasIndex(e => e.SupportRepId)
                     .HasName("IFK_CustomerSupportRepId");
 
-                entity.Property(e => e.CustomerId).ValueGeneratedNever();
+                entity.Property(e => e.Address)
+                    .HasColumnType("varchar(70)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Address).HasMaxLength(70);
+                entity.Property(e => e.City)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.City).HasMaxLength(40);
+                entity.Property(e => e.Company)
+                    .HasColumnType("varchar(80)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Company).HasMaxLength(80);
-
-                entity.Property(e => e.Country).HasMaxLength(40);
+                entity.Property(e => e.Country)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.Email)
                     .IsRequired()
-                    .HasMaxLength(60);
+                    .HasColumnType("varchar(60)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Fax).HasMaxLength(24);
+                entity.Property(e => e.Fax)
+                    .HasColumnType("varchar(24)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.FirstName)
                     .IsRequired()
-                    .HasMaxLength(40);
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.LastName)
                     .IsRequired()
-                    .HasMaxLength(20);
+                    .HasColumnType("varchar(20)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Phone).HasMaxLength(24);
+                entity.Property(e => e.Phone)
+                    .HasColumnType("varchar(24)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.PostalCode).HasMaxLength(10);
+                entity.Property(e => e.PostalCode)
+                    .HasColumnType("varchar(10)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.State).HasMaxLength(40);
+                entity.Property(e => e.State)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.HasOne(d => d.SupportRep)
                     .WithMany(p => p.Customer)
@@ -109,37 +138,66 @@ namespace EFCore.Model
                 entity.HasIndex(e => e.ReportsTo)
                     .HasName("IFK_EmployeeReportsTo");
 
-                entity.Property(e => e.EmployeeId).ValueGeneratedNever();
-
-                entity.Property(e => e.Address).HasMaxLength(70);
+                entity.Property(e => e.Address)
+                    .HasColumnType("varchar(70)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.BirthDate).HasColumnType("datetime");
 
-                entity.Property(e => e.City).HasMaxLength(40);
+                entity.Property(e => e.City)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Country).HasMaxLength(40);
+                entity.Property(e => e.Country)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Email).HasMaxLength(60);
+                entity.Property(e => e.Email)
+                    .HasColumnType("varchar(60)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Fax).HasMaxLength(24);
+                entity.Property(e => e.Fax)
+                    .HasColumnType("varchar(24)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.FirstName)
                     .IsRequired()
-                    .HasMaxLength(20);
+                    .HasColumnType("varchar(20)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.HireDate).HasColumnType("datetime");
 
                 entity.Property(e => e.LastName)
                     .IsRequired()
-                    .HasMaxLength(20);
+                    .HasColumnType("varchar(20)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Phone).HasMaxLength(24);
+                entity.Property(e => e.Phone)
+                    .HasColumnType("varchar(24)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.PostalCode).HasMaxLength(10);
+                entity.Property(e => e.PostalCode)
+                    .HasColumnType("varchar(10)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.State).HasMaxLength(40);
+                entity.Property(e => e.State)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.Title).HasMaxLength(30);
+                entity.Property(e => e.Title)
+                    .HasColumnType("varchar(30)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.HasOne(d => d.ReportsToNavigation)
                     .WithMany(p => p.InverseReportsToNavigation)
@@ -149,9 +207,10 @@ namespace EFCore.Model
 
             modelBuilder.Entity<Genre>(entity =>
             {
-                entity.Property(e => e.GenreId).ValueGeneratedNever();
-
-                entity.Property(e => e.Name).HasMaxLength(120);
+                entity.Property(e => e.Name)
+                    .HasColumnType("varchar(120)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
             });
 
             modelBuilder.Entity<Invoice>(entity =>
@@ -159,21 +218,34 @@ namespace EFCore.Model
                 entity.HasIndex(e => e.CustomerId)
                     .HasName("IFK_InvoiceCustomerId");
 
-                entity.Property(e => e.InvoiceId).ValueGeneratedNever();
+                entity.Property(e => e.BillingAddress)
+                    .HasColumnType("varchar(70)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.BillingAddress).HasMaxLength(70);
+                entity.Property(e => e.BillingCity)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.BillingCity).HasMaxLength(40);
+                entity.Property(e => e.BillingCountry)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.BillingCountry).HasMaxLength(40);
+                entity.Property(e => e.BillingPostalCode)
+                    .HasColumnType("varchar(10)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.BillingPostalCode).HasMaxLength(10);
-
-                entity.Property(e => e.BillingState).HasMaxLength(40);
+                entity.Property(e => e.BillingState)
+                    .HasColumnType("varchar(40)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.InvoiceDate).HasColumnType("datetime");
 
-                entity.Property(e => e.Total).HasColumnType("numeric(10, 2)");
+                entity.Property(e => e.Total).HasColumnType("decimal(10,2)");
 
                 entity.HasOne(d => d.Customer)
                     .WithMany(p => p.Invoice)
@@ -190,9 +262,7 @@ namespace EFCore.Model
                 entity.HasIndex(e => e.TrackId)
                     .HasName("IFK_InvoiceLineTrackId");
 
-                entity.Property(e => e.InvoiceLineId).ValueGeneratedNever();
-
-                entity.Property(e => e.UnitPrice).HasColumnType("numeric(10, 2)");
+                entity.Property(e => e.UnitPrice).HasColumnType("decimal(10,2)");
 
                 entity.HasOne(d => d.Invoice)
                     .WithMany(p => p.InvoiceLine)
@@ -209,22 +279,24 @@ namespace EFCore.Model
 
             modelBuilder.Entity<MediaType>(entity =>
             {
-                entity.Property(e => e.MediaTypeId).ValueGeneratedNever();
-
-                entity.Property(e => e.Name).HasMaxLength(120);
+                entity.Property(e => e.Name)
+                    .HasColumnType("varchar(120)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
             });
 
             modelBuilder.Entity<Playlist>(entity =>
             {
-                entity.Property(e => e.PlaylistId).ValueGeneratedNever();
-
-                entity.Property(e => e.Name).HasMaxLength(120);
+                entity.Property(e => e.Name)
+                    .HasColumnType("varchar(120)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
             });
 
             modelBuilder.Entity<PlaylistTrack>(entity =>
             {
                 entity.HasKey(e => new { e.PlaylistId, e.TrackId })
-                    .IsClustered(false);
+                    .HasName("PRIMARY");
 
                 entity.HasIndex(e => e.TrackId)
                     .HasName("IFK_PlaylistTrackTrackId");
@@ -253,15 +325,18 @@ namespace EFCore.Model
                 entity.HasIndex(e => e.MediaTypeId)
                     .HasName("IFK_TrackMediaTypeId");
 
-                entity.Property(e => e.TrackId).ValueGeneratedNever();
-
-                entity.Property(e => e.Composer).HasMaxLength(220);
+                entity.Property(e => e.Composer)
+                    .HasColumnType("varchar(220)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
                 entity.Property(e => e.Name)
                     .IsRequired()
-                    .HasMaxLength(200);
+                    .HasColumnType("varchar(200)")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
 
-                entity.Property(e => e.UnitPrice).HasColumnType("numeric(10, 2)");
+                entity.Property(e => e.UnitPrice).HasColumnType("decimal(10,2)");
 
                 entity.HasOne(d => d.Album)
                     .WithMany(p => p.Track)

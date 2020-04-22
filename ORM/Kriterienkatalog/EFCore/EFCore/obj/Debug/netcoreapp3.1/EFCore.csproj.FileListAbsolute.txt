@@ -124,3 +124,7 @@
 /Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
 /Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/obj/Debug/netcoreapp3.1/EFCore.csproj.CopyComplete
+/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/bin/Debug/netcoreapp3.1/MySqlConnector.dll
+/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/bin/Debug/netcoreapp3.1/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/EFCore/EFCore/bin/Debug/netcoreapp3.1/Pomelo.JsonObject.dll

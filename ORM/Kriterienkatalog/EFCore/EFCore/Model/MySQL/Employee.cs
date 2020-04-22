@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EFCore.Model
+namespace EFCore.Model.MySQL
 {
     public partial class Employee
     {
