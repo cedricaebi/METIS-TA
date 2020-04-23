@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
+    "projectUniqueName": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
     "projectName": "MyLinq2DB",
-    "projectPath": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
-    "outputPath": "/Users/cedric/Documents/repos/TA/MyLinq2DB/MyLinq2DB/obj/",
+    "projectPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj",
+    "outputPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyLinq2DB/MyLinq2DB/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -29,9 +29,21 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "IBM.Data.DB2.Core-osx": {
+          "target": "Package",
+          "version": "[1.3.0.100, )"
+        },
         "Microsoft.SqlServer.Types": {
           "target": "Package",
           "version": "[14.0.1016.290, )"
+        },
+        "MySql.Data": {
+          "target": "Package",
+          "version": "[8.0.19, )"
+        },
+        "System.Data.SQLite.Core": {
+          "target": "Package",
+          "version": "[1.0.112.1, )"
         },
         "System.Data.SqlClient": {
           "target": "Package",
@@ -39,19 +51,43 @@
         },
         "linq2db": {
           "target": "Package",
-          "version": "[2.9.7, )"
+          "version": "[3.0.0-preview.2, )"
+        },
+        "linq2db.DB2.Core": {
+          "target": "Package",
+          "version": "[3.0.0-preview.2, )"
+        },
+        "linq2db.MySql": {
+          "target": "Package",
+          "version": "[3.0.0-preview.2, )"
+        },
+        "linq2db.Oracle.Managed": {
+          "target": "Package",
+          "version": "[3.0.0-preview.2, )"
+        },
+        "linq2db.PostgreSQL": {
+          "target": "Package",
+          "version": "[3.0.0-preview.2, )"
+        },
+        "linq2db.SQLite": {
+          "target": "Package",
+          "version": "[3.0.0-preview.2, )"
+        },
+        "linq2db.SapHana": {
+          "target": "Package",
+          "version": "[3.0.0-preview.2, )"
         },
         "linq2db.SqlServer": {
           "target": "Package",
-          "version": "[2.9.7, )"
+          "version": "[3.0.0-preview.2, )"
         },
         "linq2db.Tools": {
           "target": "Package",
-          "version": "[2.9.7, )"
+          "version": "[3.0.0-preview.2, )"
         },
         "linq2db.t4models": {
           "target": "Package",
-          "version": "[2.9.7, )"
+          "version": "[3.0.0-preview.2, )"
         }
       },
       "imports": [

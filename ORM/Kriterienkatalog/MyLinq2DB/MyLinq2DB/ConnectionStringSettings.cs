@@ -16,8 +16,8 @@ namespace MyLinq2DB
     {
         public IEnumerable<IDataProviderSettings> DataProviders => Enumerable.Empty<IDataProviderSettings>();
 
-        public string DefaultConfiguration => "SqlServer";
-        public string DefaultDataProvider => "SqlServer";
+        public string DefaultConfiguration => "SQLite";
+        public string DefaultDataProvider => "SQLite";
 
         public IEnumerable<IConnectionStringSettings> ConnectionStrings
         {
@@ -26,9 +26,9 @@ namespace MyLinq2DB
                 yield return
                     new ConnectionStringSettings
                     {
-                        Name = "AdventureWorks2017",
-                        ProviderName = "System.Data.SqlClient",
-                        ConnectionString = @"Server=127.0.0.1,1433;Initial Catalog=AdventureWorks2017;User ID=sa;Password=myNiceSQLPassword123;"
+                        Name = "Chinook",
+                        ProviderName = "SQLite",
+                        ConnectionString = @"Data Source=/Users/cedric/sqlite/Chinook.db;"
                     };
             }
         }

@@ -6,28 +6,66 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="linq2db" Version="2.9.7" />
-      <PackageReference Include="linq2db.SqlServer" Version="2.9.7" />
-      <PackageReference Include="linq2db.t4models" Version="2.9.7" />
-      <PackageReference Include="linq2db.Tools" Version="2.9.7" />
+      <PackageReference Include="linq2db" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.DB2.Core" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.MySql" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.Oracle.Managed" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.PostgreSQL" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.SapHana" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.SQLite" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.SqlServer" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.t4models" Version="3.0.0-preview.2" />
+      <PackageReference Include="linq2db.Tools" Version="3.0.0-preview.2" />
       <PackageReference Include="Microsoft.SqlServer.Types" Version="14.0.1016.290" />
+      <PackageReference Include="MySql.Data" Version="8.0.19" />
       <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Update="Model\Model.tt">
-        <Generator>TextTemplatingFileGenerator</Generator>
-        <LastGenOutput>Model.generated.cs</LastGenOutput>
-      </None>
+      <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112.1" />
     </ItemGroup>
 
     <ItemGroup>
       <Compile Update="Model\Model.cs">
         <DependentUpon>Model.tt</DependentUpon>
       </Compile>
-      <Compile Update="Model\Model.generated.cs">
+      <Compile Update="Model\SQLServer\Model.generated.cs">
         <DependentUpon>Model.tt</DependentUpon>
       </Compile>
+      <Compile Update="Model\MySQL\MySQL.generated.cs">
+        <AutoGen>True</AutoGen>
+        <DesignTime>True</DesignTime>
+        <DependentUpon>MySQL.tt</DependentUpon>
+      </Compile>
+      <Compile Update="Model\Postgre\Postgre.generated.cs">
+        <AutoGen>True</AutoGen>
+        <DesignTime>True</DesignTime>
+        <DependentUpon>Postgre.tt</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Model\SQLServer\Model.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+        <LastGenOutput>Model.generated.cs</LastGenOutput>
+      </None>
+      <None Update="Model\MySQL\MySQL.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+        <LastGenOutput>MySQL.generated.cs</LastGenOutput>
+      </None>
+      <None Update="Model\Oracle\Oracle.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+      </None>
+      <None Update="Model\Postgre\Postgre.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+        <LastGenOutput>Postgre.generated.cs</LastGenOutput>
+      </None>
+      <None Update="Model\DB2\DB2.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+      </None>
+      <None Update="Model\SQLite\sqlite.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+      </None>
+      <None Update="Model\Hana\Hana.tt">
+        <Generator>TextTemplatingFileGenerator</Generator>
+      </None>
     </ItemGroup>
 
 </Project>

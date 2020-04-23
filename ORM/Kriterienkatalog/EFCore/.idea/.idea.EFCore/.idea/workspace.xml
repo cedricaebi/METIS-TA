@@ -20,15 +20,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca205aaa-39e1-4df5-ad9d-aa4482991eef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/DB2/DB2.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/MySQL/MySQL.generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/MySQL/MySQL.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/Oracle/Oracle.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/Postgre/Postgre.generated.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/Postgre/Postgre.tt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Google.Protobuf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MySql.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Npgsql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Oracle.ManagedDataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Renci.SshNet.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/SshNet.Security.Cryptography.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/Ubiety.Dns.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/DB2/DB2/GeneratedTransformation.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/DB2/DB2/GeneratedTransformation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/Oracle/Oracle/GeneratedTransformation.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/Oracle/Oracle/GeneratedTransformation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/SQLServer/Model/GeneratedTransformation.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/TextTemplating/MyLinq2DB/Model/SQLServer/Model/GeneratedTransformation.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EFCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EFCore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/EFCore.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/EFCore.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/Debug/netcoreapp3.1/EFCore.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/EFCore.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EFCore/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EFCore/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/.idea/.idea.MyLinq2DB/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/ConnectionStringSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/ConnectionStringSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/Model.generated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/SQLServer/Model.generated.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/Model.tt" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Model/SQLServer/Model.tt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/MyLinq2DB.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/GroupByQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/GroupByQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/JoinQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/JoinQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/OrderBy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/OrderBy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/SelectQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/SelectQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/SubQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/Queries/SubQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/MyLinq2DB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/linq2db.Tools.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/linq2db.Tools.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/linq2db.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/bin/Debug/netcoreapp3.1/linq2db.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/MyLinq2DB.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../MyLinq2DB/MyLinq2DB/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,10 +128,10 @@
         <option value="$PROJECT_DIR$/EFCore/Program.cs" />
         <option value="$PROJECT_DIR$/EFCore/Queries/SubQuery.cs" />
         <option value="$PROJECT_DIR$/EFCore/Queries/SelectQuery.cs" />
-        <option value="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" />
         <option value="$PROJECT_DIR$/EFCore/Queries/GroupByQuery.cs" />
         <option value="$PROJECT_DIR$/EFCore/Model/MySQL/ChinookContext.cs" />
         <option value="$PROJECT_DIR$/EFCore/EFCore.csproj" />
+        <option value="$PROJECT_DIR$/EFCore/Queries/JoinQuery.cs" />
       </list>
     </option>
   </component>
@@ -156,7 +211,11 @@
       <workItem from="1587542521523" duration="1134000" />
       <workItem from="1587550506900" duration="8450000" />
       <workItem from="1587570043382" duration="2392000" />
-      <workItem from="1587577786748" duration="211000" />
+      <workItem from="1587577786748" duration="614000" />
+      <workItem from="1587637929841" duration="31000" />
+      <workItem from="1587639063000" duration="1895000" />
+      <workItem from="1587643473798" duration="577000" />
+      <workItem from="1587651470844" duration="5000" />
     </task>
     <servers />
   </component>

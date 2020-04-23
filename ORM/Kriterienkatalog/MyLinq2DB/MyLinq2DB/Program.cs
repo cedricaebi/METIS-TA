@@ -6,10 +6,10 @@ namespace MyLinq2DB
     {
         private static void Main()
         {
-            //SelectQuery.Execute();
-            //JoinQuery.Execute();
-            //GroupByQuery.Execute();
-            //OrderBy.Execute();
+            SelectQuery.Execute();
+            JoinQuery.Execute();
+            GroupByQuery.Execute();
+            OrderBy.Execute();
             SubQuery.Execute();
         }
     }

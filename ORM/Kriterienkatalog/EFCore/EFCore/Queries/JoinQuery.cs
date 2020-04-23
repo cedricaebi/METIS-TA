@@ -48,7 +48,7 @@ namespace EFCore.Queries
             {
                 //Print first three rows from table
                 //And yes I know the naming is shit, but I don't care :)
-                Console.WriteLine("{0}", queryObject.album.Artist.Name);
+                Console.WriteLine("{0}", queryObject.artist.Name);
             }
         }
     }
