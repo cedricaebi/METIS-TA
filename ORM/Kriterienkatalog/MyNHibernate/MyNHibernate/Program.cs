@@ -2,6 +2,7 @@
 using NHibernate.Dialect;
 using NHibernate.Driver;
 using System.Reflection;
+using MyNHibernate.Queries;
 
 namespace MyNHibernate
 {
@@ -13,20 +14,18 @@ namespace MyNHibernate
 
             cfg.DataBaseIntegration(x =>
             {
-                x.ConnectionString = "Server=127.0.0.1,1433;Initial Catalog=AdventureWorks2017;User ID=sa;Password=myNiceSQLPassword123;";
+                x.ConnectionString = "Server=127.0.0.1,1433;Initial Catalog=Chinook;User ID=sa;Password=myNiceSQLPassword123;";
                 x.Dialect<MsSql2012Dialect>();
                 x.Driver<SqlClientDriver>();
             });
          
             cfg.AddAssembly(Assembly.GetExecutingAssembly());
-         
-            var sessionFactory = cfg.BuildSessionFactory();
-
-            using var session = sessionFactory.OpenSession();
-            using var tx = session.BeginTransaction();
-            //perform database logic 
-            var products = session.CreateQuery("select Name from Product");
-            tx.Commit();
+            
+            SelectQuery.Execute(cfg);
+            JoinQuery.Execute(cfg);
+            GroupByQuery.Execute(cfg);
+            OrderBy.Execute(cfg);
+            SubQuery.Execute(cfg);
         }
     }
 }

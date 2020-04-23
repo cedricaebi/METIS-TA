@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/RawSQL.csproj",
+    "projectUniqueName": "/Users/cedric/Documents/repos/METIS-TA/ORM/Performance/RawSQL/RawSQL/RawSQL.csproj",
     "projectName": "RawSQL",
-    "projectPath": "/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/RawSQL.csproj",
-    "outputPath": "/Users/cedric/Documents/repos/TA/RawSQL/RawSQL/obj/",
+    "projectPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Performance/RawSQL/RawSQL/RawSQL.csproj",
+    "outputPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Performance/RawSQL/RawSQL/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

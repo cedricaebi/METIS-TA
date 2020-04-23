@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Genre" table="Genre" lazy="true" >
+    <id name="Genreid" column="GenreId" />
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="false" />
+    </property>
+    <bag name="Track" inverse="true">
+      <key column="GenreId" />
+      <one-to-many class="Track" />
+    </bag>
+  </class>
+</hibernate-mapping>

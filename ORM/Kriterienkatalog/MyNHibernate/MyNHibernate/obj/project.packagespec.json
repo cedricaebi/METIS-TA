@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/cedric/Documents/repos/TA/MyNHibernate/MyNHibernate/MyNHibernate.csproj",
+    "projectUniqueName": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyNHibernate/MyNHibernate/MyNHibernate.csproj",
     "projectName": "MyNHibernate",
-    "projectPath": "/Users/cedric/Documents/repos/TA/MyNHibernate/MyNHibernate/MyNHibernate.csproj",
-    "outputPath": "/Users/cedric/Documents/repos/TA/MyNHibernate/MyNHibernate/obj/",
+    "projectPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyNHibernate/MyNHibernate/MyNHibernate.csproj",
+    "outputPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyNHibernate/MyNHibernate/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

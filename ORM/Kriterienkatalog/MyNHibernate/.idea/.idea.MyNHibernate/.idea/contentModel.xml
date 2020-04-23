@@ -5,178 +5,30 @@
       <e p="MyNHibernate" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain" t="Include">
-          <e p="Address.cs" t="Include" />
-          <e p="Addresstype.cs" t="Include" />
-          <e p="Billofmaterials.cs" t="Include" />
-          <e p="Businessentity.cs" t="Include" />
-          <e p="Businessentityaddress.cs" t="Include" />
-          <e p="Businessentitycontact.cs" t="Include" />
-          <e p="Contacttype.cs" t="Include" />
-          <e p="Countryregion.cs" t="Include" />
-          <e p="Countryregioncurrency.cs" t="Include" />
-          <e p="Creditcard.cs" t="Include" />
-          <e p="Culture.cs" t="Include" />
-          <e p="Currency.cs" t="Include" />
-          <e p="Currencyrate.cs" t="Include" />
+          <e p="Album.cs" t="Include" />
+          <e p="Artist.cs" t="Include" />
           <e p="Customer.cs" t="Include" />
-          <e p="Department.cs" t="Include" />
           <e p="Employee.cs" t="Include" />
-          <e p="Employeepayhistory.cs" t="Include" />
-          <e p="Illustration.cs" t="Include" />
-          <e p="Jobcandidate.cs" t="Include" />
-          <e p="Location.cs" t="Include" />
-          <e p="Password.cs" t="Include" />
-          <e p="Person.cs" t="Include" />
-          <e p="Personcreditcard.cs" t="Include" />
-          <e p="Personphone.cs" t="Include" />
-          <e p="Phonenumbertype.cs" t="Include" />
-          <e p="Product.cs" t="Include" />
-          <e p="Productcategory.cs" t="Include" />
-          <e p="Productcosthistory.cs" t="Include" />
-          <e p="Productdescription.cs" t="Include" />
-          <e p="Productdocument.cs" t="Include" />
-          <e p="Productinventory.cs" t="Include" />
-          <e p="Productlistpricehistory.cs" t="Include" />
-          <e p="Productmodel.cs" t="Include" />
-          <e p="Productmodelillustration.cs" t="Include" />
-          <e p="Productmodelproductdescriptionculture.cs" t="Include" />
-          <e p="Productphoto.cs" t="Include" />
-          <e p="Productproductphoto.cs" t="Include" />
-          <e p="Productreview.cs" t="Include" />
-          <e p="Productsubcategory.cs" t="Include" />
-          <e p="Productvendor.cs" t="Include" />
-          <e p="Purchaseorderdetail.cs" t="Include" />
-          <e p="Purchaseorderheader.cs" t="Include" />
-          <e p="Salesorderdetail.cs" t="Include" />
-          <e p="Salesorderheader.cs" t="Include" />
-          <e p="Salesorderheadersalesreason.cs" t="Include" />
-          <e p="Salesperson.cs" t="Include" />
-          <e p="Salespersonquotahistory.cs" t="Include" />
-          <e p="Salesreason.cs" t="Include" />
-          <e p="Salestaxrate.cs" t="Include" />
-          <e p="Salesterritory.cs" t="Include" />
-          <e p="Salesterritoryhistory.cs" t="Include" />
-          <e p="Scrapreason.cs" t="Include" />
-          <e p="Shift.cs" t="Include" />
-          <e p="Shipmethod.cs" t="Include" />
-          <e p="Shoppingcartitem.cs" t="Include" />
-          <e p="Specialoffer.cs" t="Include" />
-          <e p="Specialofferproduct.cs" t="Include" />
-          <e p="Stateprovince.cs" t="Include" />
-          <e p="Store.cs" t="Include" />
-          <e p="Transactionhistory.cs" t="Include" />
-          <e p="Transactionhistoryarchive.cs" t="Include" />
-          <e p="Unitmeasure.cs" t="Include" />
-          <e p="Vadditionalcontactinfo.cs" t="Include" />
-          <e p="Vemployee.cs" t="Include" />
-          <e p="Vemployeedepartment.cs" t="Include" />
-          <e p="Vemployeedepartmenthistory.cs" t="Include" />
-          <e p="Vendor.cs" t="Include" />
-          <e p="Vindividualcustomer.cs" t="Include" />
-          <e p="Vjobcandidate.cs" t="Include" />
-          <e p="Vjobcandidateeducation.cs" t="Include" />
-          <e p="Vjobcandidateemployment.cs" t="Include" />
-          <e p="Vpersondemographics.cs" t="Include" />
-          <e p="Vproductanddescription.cs" t="Include" />
-          <e p="Vproductmodelcatalogdescription.cs" t="Include" />
-          <e p="Vproductmodelinstructions.cs" t="Include" />
-          <e p="Vsalesperson.cs" t="Include" />
-          <e p="Vsalespersonsalesbyfiscalyears.cs" t="Include" />
-          <e p="Vstateprovincecountryregion.cs" t="Include" />
-          <e p="Vstorewithaddresses.cs" t="Include" />
-          <e p="Vstorewithcontacts.cs" t="Include" />
-          <e p="Vstorewithdemographics.cs" t="Include" />
-          <e p="Vvendorwithaddresses.cs" t="Include" />
-          <e p="Vvendorwithcontacts.cs" t="Include" />
-          <e p="Workorder.cs" t="Include" />
-          <e p="Workorderrouting.cs" t="Include" />
+          <e p="Genre.cs" t="Include" />
+          <e p="Invoice.cs" t="Include" />
+          <e p="Invoiceline.cs" t="Include" />
+          <e p="Mediatype.cs" t="Include" />
+          <e p="Playlist.cs" t="Include" />
+          <e p="Playlisttrack.cs" t="Include" />
+          <e p="Track.cs" t="Include" />
         </e>
         <e p="Mapping" t="Include">
-          <e p="Address.hbm.xml" t="Include" />
-          <e p="Addresstype.hbm.xml" t="Include" />
-          <e p="Billofmaterials.hbm.xml" t="Include" />
-          <e p="Businessentity.hbm.xml" t="Include" />
-          <e p="Businessentityaddress.hbm.xml" t="Include" />
-          <e p="Businessentitycontact.hbm.xml" t="Include" />
-          <e p="Contacttype.hbm.xml" t="Include" />
-          <e p="Countryregion.hbm.xml" t="Include" />
-          <e p="Countryregioncurrency.hbm.xml" t="Include" />
-          <e p="Creditcard.hbm.xml" t="Include" />
-          <e p="Culture.hbm.xml" t="Include" />
-          <e p="Currency.hbm.xml" t="Include" />
-          <e p="Currencyrate.hbm.xml" t="Include" />
+          <e p="Album.hbm.xml" t="Include" />
+          <e p="Artist.hbm.xml" t="Include" />
           <e p="Customer.hbm.xml" t="Include" />
-          <e p="Department.hbm.xml" t="Include" />
           <e p="Employee.hbm.xml" t="Include" />
-          <e p="Employeepayhistory.hbm.xml" t="Include" />
-          <e p="Illustration.hbm.xml" t="Include" />
-          <e p="Jobcandidate.hbm.xml" t="Include" />
-          <e p="Location.hbm.xml" t="Include" />
-          <e p="Password.hbm.xml" t="Include" />
-          <e p="Person.hbm.xml" t="Include" />
-          <e p="Personcreditcard.hbm.xml" t="Include" />
-          <e p="Personphone.hbm.xml" t="Include" />
-          <e p="Phonenumbertype.hbm.xml" t="Include" />
-          <e p="Product.hbm.xml" t="Include" />
-          <e p="Productcategory.hbm.xml" t="Include" />
-          <e p="Productcosthistory.hbm.xml" t="Include" />
-          <e p="Productdescription.hbm.xml" t="Include" />
-          <e p="Productdocument.hbm.xml" t="Include" />
-          <e p="Productinventory.hbm.xml" t="Include" />
-          <e p="Productlistpricehistory.hbm.xml" t="Include" />
-          <e p="Productmodel.hbm.xml" t="Include" />
-          <e p="Productmodelillustration.hbm.xml" t="Include" />
-          <e p="Productmodelproductdescriptionculture.hbm.xml" t="Include" />
-          <e p="Productphoto.hbm.xml" t="Include" />
-          <e p="Productproductphoto.hbm.xml" t="Include" />
-          <e p="Productreview.hbm.xml" t="Include" />
-          <e p="Productsubcategory.hbm.xml" t="Include" />
-          <e p="Productvendor.hbm.xml" t="Include" />
-          <e p="Purchaseorderdetail.hbm.xml" t="Include" />
-          <e p="Purchaseorderheader.hbm.xml" t="Include" />
-          <e p="Salesorderdetail.hbm.xml" t="Include" />
-          <e p="Salesorderheader.hbm.xml" t="Include" />
-          <e p="Salesorderheadersalesreason.hbm.xml" t="Include" />
-          <e p="Salesperson.hbm.xml" t="Include" />
-          <e p="Salespersonquotahistory.hbm.xml" t="Include" />
-          <e p="Salesreason.hbm.xml" t="Include" />
-          <e p="Salestaxrate.hbm.xml" t="Include" />
-          <e p="Salesterritory.hbm.xml" t="Include" />
-          <e p="Salesterritoryhistory.hbm.xml" t="Include" />
-          <e p="Scrapreason.hbm.xml" t="Include" />
-          <e p="Shift.hbm.xml" t="Include" />
-          <e p="Shipmethod.hbm.xml" t="Include" />
-          <e p="Shoppingcartitem.hbm.xml" t="Include" />
-          <e p="Specialoffer.hbm.xml" t="Include" />
-          <e p="Specialofferproduct.hbm.xml" t="Include" />
-          <e p="Stateprovince.hbm.xml" t="Include" />
-          <e p="Store.hbm.xml" t="Include" />
-          <e p="Transactionhistory.hbm.xml" t="Include" />
-          <e p="Transactionhistoryarchive.hbm.xml" t="Include" />
-          <e p="Unitmeasure.hbm.xml" t="Include" />
-          <e p="Vadditionalcontactinfo.hbm.xml" t="Include" />
-          <e p="Vemployee.hbm.xml" t="Include" />
-          <e p="Vemployeedepartment.hbm.xml" t="Include" />
-          <e p="Vemployeedepartmenthistory.hbm.xml" t="Include" />
-          <e p="Vendor.hbm.xml" t="Include" />
-          <e p="Vindividualcustomer.hbm.xml" t="Include" />
-          <e p="Vjobcandidate.hbm.xml" t="Include" />
-          <e p="Vjobcandidateeducation.hbm.xml" t="Include" />
-          <e p="Vjobcandidateemployment.hbm.xml" t="Include" />
-          <e p="Vpersondemographics.hbm.xml" t="Include" />
-          <e p="Vproductanddescription.hbm.xml" t="Include" />
-          <e p="Vproductmodelcatalogdescription.hbm.xml" t="Include" />
-          <e p="Vproductmodelinstructions.hbm.xml" t="Include" />
-          <e p="Vsalesperson.hbm.xml" t="Include" />
-          <e p="Vsalespersonsalesbyfiscalyears.hbm.xml" t="Include" />
-          <e p="Vstateprovincecountryregion.hbm.xml" t="Include" />
-          <e p="Vstorewithaddresses.hbm.xml" t="Include" />
-          <e p="Vstorewithcontacts.hbm.xml" t="Include" />
-          <e p="Vstorewithdemographics.hbm.xml" t="Include" />
-          <e p="Vvendorwithaddresses.hbm.xml" t="Include" />
-          <e p="Vvendorwithcontacts.hbm.xml" t="Include" />
-          <e p="Workorder.hbm.xml" t="Include" />
-          <e p="Workorderrouting.hbm.xml" t="Include" />
+          <e p="Genre.hbm.xml" t="Include" />
+          <e p="Invoice.hbm.xml" t="Include" />
+          <e p="Invoiceline.hbm.xml" t="Include" />
+          <e p="Mediatype.hbm.xml" t="Include" />
+          <e p="Playlist.hbm.xml" t="Include" />
+          <e p="Playlisttrack.hbm.xml" t="Include" />
+          <e p="Track.hbm.xml" t="Include" />
         </e>
         <e p="MyNHibernate.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -187,12 +39,19 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Queries" t="Include">
+          <e p="GroupByQuery.cs" t="Include" />
+          <e p="JoinQuery.cs" t="Include" />
+          <e p="OrderBy.cs" t="Include" />
+          <e p="SelectQuery.cs" t="Include" />
+          <e p="SubQuery.cs" t="Include" />
+        </e>
       </e>
       <e p="MyNHibernate.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_MyNHibernate.-1532648325.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_MyNHibernate.-1610857202.00" t="ExcludeRecursive" />
   </component>
 </project>
