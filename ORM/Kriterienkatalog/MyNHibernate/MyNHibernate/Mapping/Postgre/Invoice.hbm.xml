@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.Postgre" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Invoice" table="Invoice" lazy="true" >
+    <id name="Invoiceid" column="InvoiceId" />
+    <property name="Billingpostalcode">
+      <column name="BillingPostalCode" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Billingcountry">
+      <column name="BillingCountry" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Billingaddress">
+      <column name="BillingAddress" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Billingcity">
+      <column name="BillingCity" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Invoicedate">
+      <column name="InvoiceDate" sql-type="timestamp without time zone" not-null="true" />
+    </property>
+    <property name="Customerid">
+      <column name="CustomerId" sql-type="integer" not-null="true" />
+    </property>
+    <property name="Billingstate">
+      <column name="BillingState" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Total">
+      <column name="Total" sql-type="numeric" not-null="true" />
+    </property>
+    <bag name="Invoiceline" inverse="true">
+      <key column="" />
+      <one-to-many class="Invoiceline" />
+    </bag>
+  </class>
+</hibernate-mapping>

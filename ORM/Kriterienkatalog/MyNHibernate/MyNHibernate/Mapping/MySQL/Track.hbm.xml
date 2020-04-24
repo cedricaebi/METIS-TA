@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.MySQL" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Track" table="Track" lazy="true" >
+    <id name="Trackid" column="TrackId" />
+    <many-to-one name="Album">
+      <column name="AlbumId" sql-type="int" not-null="false" />
+    </many-to-one>
+    <many-to-one name="Mediatype">
+      <column name="MediaTypeId" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Genre">
+      <column name="GenreId" sql-type="int" not-null="false" />
+    </many-to-one>
+    <property name="Name">
+      <column name="Name" sql-type="varchar(200)" not-null="true" />
+    </property>
+    <property name="Composer">
+      <column name="Composer" sql-type="varchar(220)" not-null="false" />
+    </property>
+    <property name="Milliseconds">
+      <column name="Milliseconds" sql-type="int" not-null="true" />
+    </property>
+    <property name="Bytes">
+      <column name="Bytes" sql-type="int" not-null="false" />
+    </property>
+    <property name="Unitprice">
+      <column name="UnitPrice" sql-type="decimal(10,2)" not-null="true" />
+    </property>
+    <bag name="Invoiceline" inverse="true">
+      <key column="" />
+      <one-to-many class="Invoiceline" />
+    </bag>
+    <bag name="Playlisttrack" inverse="true">
+      <key column="" />
+      <one-to-many class="Playlisttrack" />
+    </bag>
+  </class>
+</hibernate-mapping>

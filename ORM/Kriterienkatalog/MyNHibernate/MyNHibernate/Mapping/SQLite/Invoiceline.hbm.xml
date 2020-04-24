@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLite" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Invoiceline" table="InvoiceLine" lazy="true" >
+    <id name="Invoicelineid" column="InvoiceLineId" />
+    <property name="Invoiceid">
+      <column name="InvoiceId" sql-type="INTEGER" not-null="true" />
+    </property>
+    <property name="Trackid">
+      <column name="TrackId" sql-type="INTEGER" not-null="true" />
+    </property>
+    <property name="Unitprice">
+      <column name="UnitPrice" sql-type="NUMERIC" not-null="true" />
+    </property>
+    <property name="Quantity">
+      <column name="Quantity" sql-type="INTEGER" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

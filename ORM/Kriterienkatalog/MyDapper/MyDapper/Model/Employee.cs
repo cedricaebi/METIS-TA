@@ -1,39 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MyDapper.Model
+namespace EFCore.Model.SQLServer
 {
     public partial class Employee
     {
         public Employee()
         {
-            EmployeeDepartmentHistory = new HashSet<EmployeeDepartmentHistory>();
-            EmployeePayHistory = new HashSet<EmployeePayHistory>();
-            JobCandidate = new HashSet<JobCandidate>();
-            PurchaseOrderHeader = new HashSet<PurchaseOrderHeader>();
+            Customer = new HashSet<Customer>();
+            InverseReportsToNavigation = new HashSet<Employee>();
         }
 
-        public int BusinessEntityId { get; set; }
-        public string NationalIdnumber { get; set; }
-        public string LoginId { get; set; }
-        public short? OrganizationLevel { get; set; }
-        public string JobTitle { get; set; }
-        public DateTime BirthDate { get; set; }
-        public string MaritalStatus { get; set; }
-        public string Gender { get; set; }
-        public DateTime HireDate { get; set; }
-        public bool? SalariedFlag { get; set; }
-        public short VacationHours { get; set; }
-        public short SickLeaveHours { get; set; }
-        public bool? CurrentFlag { get; set; }
-        public Guid Rowguid { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public int EmployeeId { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public string Title { get; set; }
+        public int? ReportsTo { get; set; }
+        public DateTime? BirthDate { get; set; }
+        public DateTime? HireDate { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
+        public string PostalCode { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+        public string Email { get; set; }
 
-        public virtual Person BusinessEntity { get; set; }
-        public virtual SalesPerson SalesPerson { get; set; }
-        public virtual ICollection<EmployeeDepartmentHistory> EmployeeDepartmentHistory { get; set; }
-        public virtual ICollection<EmployeePayHistory> EmployeePayHistory { get; set; }
-        public virtual ICollection<JobCandidate> JobCandidate { get; set; }
-        public virtual ICollection<PurchaseOrderHeader> PurchaseOrderHeader { get; set; }
+        public virtual Employee ReportsToNavigation { get; set; }
+        public virtual ICollection<Customer> Customer { get; set; }
+        public virtual ICollection<Employee> InverseReportsToNavigation { get; set; }
     }
 }

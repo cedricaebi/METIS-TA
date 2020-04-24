@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain" xmlns="urn:nhibernate-mapping-2.2">
-  <class name="Playlisttrack" table="PlaylistTrack" lazy="true" >
-    <composite-id>
-      <key-property name="Playlistid" column="PlaylistId" />
-      <key-property name="Trackid" column="TrackId" />
-    </composite-id>
-  </class>
-</hibernate-mapping>

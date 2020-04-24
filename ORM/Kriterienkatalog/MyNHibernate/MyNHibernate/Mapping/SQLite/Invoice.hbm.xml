@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLite" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Invoice" table="Invoice" lazy="true" >
+    <id name="Invoiceid" column="InvoiceId" />
+    <property name="Customerid">
+      <column name="CustomerId" sql-type="INTEGER" not-null="true" />
+    </property>
+    <property name="Invoicedate">
+      <column name="InvoiceDate" sql-type="DATETIME" not-null="true" />
+    </property>
+    <property name="Billingaddress">
+      <column name="BillingAddress" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Billingcity">
+      <column name="BillingCity" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Billingstate">
+      <column name="BillingState" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Billingcountry">
+      <column name="BillingCountry" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Billingpostalcode">
+      <column name="BillingPostalCode" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Total">
+      <column name="Total" sql-type="NUMERIC" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

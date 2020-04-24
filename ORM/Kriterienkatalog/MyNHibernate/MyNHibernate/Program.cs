@@ -14,9 +14,9 @@ namespace MyNHibernate
 
             cfg.DataBaseIntegration(x =>
             {
-                x.ConnectionString = "Server=127.0.0.1,1433;Initial Catalog=Chinook;User ID=sa;Password=myNiceSQLPassword123;";
-                x.Dialect<MsSql2012Dialect>();
-                x.Driver<SqlClientDriver>();
+                x.ConnectionString = "Server=192.168.1.152:39015;databaseName=CHINOOK2;UserID=SYSTEM;Password=myNiceSQLPassword123";
+                x.Dialect<HanaColumnStoreDialect>();
+                x.Driver<HanaColumnStoreDriver>();
             });
          
             cfg.AddAssembly(Assembly.GetExecutingAssembly());

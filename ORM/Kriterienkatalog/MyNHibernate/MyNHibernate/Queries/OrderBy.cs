@@ -12,7 +12,7 @@ namespace MyNHibernate.Queries
             using var session = sessionFactory.OpenSession();
             using var tx = session.BeginTransaction();
             //perform database logic 
-            var query = session.CreateQuery("select Title from Album order by Title desc").List();
+            var query = session.CreateQuery("select Title from Album order by Title asc ").List();
             tx.Commit();
 
             Console.WriteLine("ORDERBY-----");

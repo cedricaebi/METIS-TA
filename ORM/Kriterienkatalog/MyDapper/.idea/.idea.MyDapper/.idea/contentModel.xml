@@ -5,98 +5,20 @@
       <e p="MyDapper" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Model" t="Include">
-          <e p="Address.cs" t="Include" />
-          <e p="AddressType.cs" t="Include" />
-          <e p="AwbuildVersion.cs" t="Include" />
-          <e p="BillOfMaterials.cs" t="Include" />
-          <e p="BusinessEntity.cs" t="Include" />
-          <e p="BusinessEntityAddress.cs" t="Include" />
-          <e p="BusinessEntityContact.cs" t="Include" />
-          <e p="ContactType.cs" t="Include" />
-          <e p="CountryRegion.cs" t="Include" />
-          <e p="CountryRegionCurrency.cs" t="Include" />
-          <e p="CreditCard.cs" t="Include" />
-          <e p="Culture.cs" t="Include" />
-          <e p="Currency.cs" t="Include" />
-          <e p="CurrencyRate.cs" t="Include" />
+          <e p="Album.cs" t="Include" />
+          <e p="Artist.cs" t="Include" />
           <e p="Custom" t="Include">
             <e p="AddressGroup.cs" t="Include" />
           </e>
           <e p="Customer.cs" t="Include" />
-          <e p="DatabaseLog.cs" t="Include" />
-          <e p="Department.cs" t="Include" />
-          <e p="EmailAddress.cs" t="Include" />
           <e p="Employee.cs" t="Include" />
-          <e p="EmployeeDepartmentHistory.cs" t="Include" />
-          <e p="EmployeePayHistory.cs" t="Include" />
-          <e p="ErrorLog.cs" t="Include" />
-          <e p="Illustration.cs" t="Include" />
-          <e p="JobCandidate.cs" t="Include" />
-          <e p="Location.cs" t="Include" />
-          <e p="Password.cs" t="Include" />
-          <e p="Person.cs" t="Include" />
-          <e p="PersonCreditCard.cs" t="Include" />
-          <e p="PersonPhone.cs" t="Include" />
-          <e p="PhoneNumberType.cs" t="Include" />
-          <e p="Product.cs" t="Include" />
-          <e p="ProductCategory.cs" t="Include" />
-          <e p="ProductCostHistory.cs" t="Include" />
-          <e p="ProductDescription.cs" t="Include" />
-          <e p="ProductInventory.cs" t="Include" />
-          <e p="ProductListPriceHistory.cs" t="Include" />
-          <e p="ProductModel.cs" t="Include" />
-          <e p="ProductModelIllustration.cs" t="Include" />
-          <e p="ProductModelProductDescriptionCulture.cs" t="Include" />
-          <e p="ProductPhoto.cs" t="Include" />
-          <e p="ProductProductPhoto.cs" t="Include" />
-          <e p="ProductReview.cs" t="Include" />
-          <e p="ProductSubcategory.cs" t="Include" />
-          <e p="ProductVendor.cs" t="Include" />
-          <e p="PurchaseOrderDetail.cs" t="Include" />
-          <e p="PurchaseOrderHeader.cs" t="Include" />
-          <e p="SalesOrderDetail.cs" t="Include" />
-          <e p="SalesOrderHeader.cs" t="Include" />
-          <e p="SalesOrderHeaderSalesReason.cs" t="Include" />
-          <e p="SalesPerson.cs" t="Include" />
-          <e p="SalesPersonQuotaHistory.cs" t="Include" />
-          <e p="SalesReason.cs" t="Include" />
-          <e p="SalesTaxRate.cs" t="Include" />
-          <e p="SalesTerritory.cs" t="Include" />
-          <e p="SalesTerritoryHistory.cs" t="Include" />
-          <e p="ScrapReason.cs" t="Include" />
-          <e p="Shift.cs" t="Include" />
-          <e p="ShipMethod.cs" t="Include" />
-          <e p="ShoppingCartItem.cs" t="Include" />
-          <e p="SpecialOffer.cs" t="Include" />
-          <e p="SpecialOfferProduct.cs" t="Include" />
-          <e p="StateProvince.cs" t="Include" />
-          <e p="Store.cs" t="Include" />
-          <e p="TransactionHistory.cs" t="Include" />
-          <e p="TransactionHistoryArchive.cs" t="Include" />
-          <e p="UnitMeasure.cs" t="Include" />
-          <e p="VAdditionalContactInfo.cs" t="Include" />
-          <e p="VEmployee.cs" t="Include" />
-          <e p="VEmployeeDepartment.cs" t="Include" />
-          <e p="VEmployeeDepartmentHistory.cs" t="Include" />
-          <e p="Vendor.cs" t="Include" />
-          <e p="VIndividualCustomer.cs" t="Include" />
-          <e p="VJobCandidate.cs" t="Include" />
-          <e p="VJobCandidateEducation.cs" t="Include" />
-          <e p="VJobCandidateEmployment.cs" t="Include" />
-          <e p="VPersonDemographics.cs" t="Include" />
-          <e p="VProductAndDescription.cs" t="Include" />
-          <e p="VProductModelCatalogDescription.cs" t="Include" />
-          <e p="VProductModelInstructions.cs" t="Include" />
-          <e p="VSalesPerson.cs" t="Include" />
-          <e p="VSalesPersonSalesByFiscalYears.cs" t="Include" />
-          <e p="VStateProvinceCountryRegion.cs" t="Include" />
-          <e p="VStoreWithAddresses.cs" t="Include" />
-          <e p="VStoreWithContacts.cs" t="Include" />
-          <e p="VStoreWithDemographics.cs" t="Include" />
-          <e p="VVendorWithAddresses.cs" t="Include" />
-          <e p="VVendorWithContacts.cs" t="Include" />
-          <e p="WorkOrder.cs" t="Include" />
-          <e p="WorkOrderRouting.cs" t="Include" />
+          <e p="Genre.cs" t="Include" />
+          <e p="Invoice.cs" t="Include" />
+          <e p="InvoiceLine.cs" t="Include" />
+          <e p="MediaType.cs" t="Include" />
+          <e p="Playlist.cs" t="Include" />
+          <e p="PlaylistTrack.cs" t="Include" />
+          <e p="Track.cs" t="Include" />
         </e>
         <e p="MyDapper.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -118,8 +40,8 @@
       <e p="MyDapper.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_MyDapper.1201072059.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.1/resharper-host/local/Transient/ReSharperHost/v201/SolutionCaches/_MyDapper.1580518222.00" t="ExcludeRecursive" />
   </component>
 </project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLite" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Customer" table="Customer" lazy="true" >
+    <id name="Customerid" column="CustomerId" />
+    <property name="Firstname">
+      <column name="FirstName" sql-type="NVARCHAR" not-null="true" />
+    </property>
+    <property name="Lastname">
+      <column name="LastName" sql-type="NVARCHAR" not-null="true" />
+    </property>
+    <property name="Company">
+      <column name="Company" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Address">
+      <column name="Address" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="City">
+      <column name="City" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="State">
+      <column name="State" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Country">
+      <column name="Country" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Postalcode">
+      <column name="PostalCode" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Phone">
+      <column name="Phone" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Fax">
+      <column name="Fax" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Email">
+      <column name="Email" sql-type="NVARCHAR" not-null="true" />
+    </property>
+    <property name="Supportrepid">
+      <column name="SupportRepId" sql-type="INTEGER" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

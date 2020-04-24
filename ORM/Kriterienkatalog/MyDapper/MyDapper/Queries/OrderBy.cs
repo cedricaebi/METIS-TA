@@ -6,7 +6,7 @@ using System.Text;
 using Dapper;
 using MyDapper.Model;
 
-namespace MyDapper.Queries
+/*namespace MyDapper.Queries
 {
     public class OrderBy
     {
@@ -48,4 +48,4 @@ namespace MyDapper.Queries
             Console.WriteLine("RunTime " + elapsedTime + ";");
         }
     }
-}
+}*/

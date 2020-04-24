@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLite" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Track" table="Track" lazy="true" >
+    <id name="Trackid" column="TrackId" />
+    <property name="Name">
+      <column name="Name" sql-type="NVARCHAR" not-null="true" />
+    </property>
+    <property name="Albumid">
+      <column name="AlbumId" sql-type="INTEGER" not-null="false" />
+    </property>
+    <property name="Mediatypeid">
+      <column name="MediaTypeId" sql-type="INTEGER" not-null="true" />
+    </property>
+    <property name="Genreid">
+      <column name="GenreId" sql-type="INTEGER" not-null="false" />
+    </property>
+    <property name="Composer">
+      <column name="Composer" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Milliseconds">
+      <column name="Milliseconds" sql-type="INTEGER" not-null="true" />
+    </property>
+    <property name="Bytes">
+      <column name="Bytes" sql-type="INTEGER" not-null="false" />
+    </property>
+    <property name="Unitprice">
+      <column name="UnitPrice" sql-type="NUMERIC" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

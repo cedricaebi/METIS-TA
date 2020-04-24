@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLite" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Employee" table="Employee" lazy="true" >
+    <id name="Employeeid" column="EmployeeId" />
+    <property name="Lastname">
+      <column name="LastName" sql-type="NVARCHAR" not-null="true" />
+    </property>
+    <property name="Firstname">
+      <column name="FirstName" sql-type="NVARCHAR" not-null="true" />
+    </property>
+    <property name="Title">
+      <column name="Title" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Reportsto">
+      <column name="ReportsTo" sql-type="INTEGER" not-null="false" />
+    </property>
+    <property name="Birthdate">
+      <column name="BirthDate" sql-type="DATETIME" not-null="false" />
+    </property>
+    <property name="Hiredate">
+      <column name="HireDate" sql-type="DATETIME" not-null="false" />
+    </property>
+    <property name="Address">
+      <column name="Address" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="City">
+      <column name="City" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="State">
+      <column name="State" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Country">
+      <column name="Country" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Postalcode">
+      <column name="PostalCode" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Phone">
+      <column name="Phone" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Fax">
+      <column name="Fax" sql-type="NVARCHAR" not-null="false" />
+    </property>
+    <property name="Email">
+      <column name="Email" sql-type="NVARCHAR" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

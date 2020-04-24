@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.Postgre" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Album" table="Album" lazy="true" >
+    <id name="Albumid" column="AlbumId" />
+    <property name="Title">
+      <column name="Title" sql-type="character varying" not-null="true" />
+    </property>
+    <property name="Artistid">
+      <column name="ArtistId" sql-type="integer" not-null="true" />
+    </property>
+    <bag name="Track" inverse="true">
+      <key column="" />
+      <one-to-many class="Track" />
+    </bag>
+  </class>
+</hibernate-mapping>

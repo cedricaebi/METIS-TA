@@ -6,7 +6,7 @@ using System.Text;
 using Dapper;
 using MyDapper.Model;
 
-namespace MyDapper.Queries
+/*namespace MyDapper.Queries
 {
     public static class SubQuery
     {
@@ -50,4 +50,4 @@ namespace MyDapper.Queries
             Console.WriteLine("RunTime " + elapsedTime + ";");
         }
     }
-}
+}*/

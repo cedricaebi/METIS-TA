@@ -6,19 +6,30 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="IBM.Data.DB2.Core-osx" Version="1.3.0.100" />
+        <PackageReference Include="MySql.Data" Version="8.0.19" />
         <PackageReference Include="NHibernate" Version="5.2.7" />
         <PackageReference Include="NHibernate.NetCore" Version="3.1.2" />
+        <PackageReference Include="Npgsql" Version="4.1.3.1" />
+        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.60" />
         <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+        <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112.1" />
     </ItemGroup>
 
     <ItemGroup>
+        <EmbeddedResource Include="Mapping\MySQL\Album.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Artist.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Customer.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Employee.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Genre.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Invoice.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Invoiceline.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Mediatype.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Playlist.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Playlisttrack.hbm.xml" />
+        <EmbeddedResource Include="Mapping\MySQL\Track.hbm.xml" />
         <None Remove="Mapping/*.hbm.xml" />
         <EmbeddedResource Include="Mapping/*.hbm.xml" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Domain" />
-      <Folder Include="Mapping" />
     </ItemGroup>
 
 </Project>

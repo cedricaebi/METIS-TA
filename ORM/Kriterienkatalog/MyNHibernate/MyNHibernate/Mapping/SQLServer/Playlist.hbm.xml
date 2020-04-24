@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLServer" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Playlist" table="Playlist" lazy="true" >
+    <id name="Playlistid" column="PlaylistId" />
+    <property name="Name">
+      <column name="Name" sql-type="nvarchar" not-null="false" />
+    </property>
+    <bag name="Playlisttrack" inverse="true">
+      <key column="PlaylistId" />
+      <one-to-many class="Playlisttrack" />
+    </bag>
+  </class>
+</hibernate-mapping>

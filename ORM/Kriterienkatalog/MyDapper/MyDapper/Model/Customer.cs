@@ -1,26 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MyDapper.Model
+namespace EFCore.Model.SQLServer
 {
     public partial class Customer
     {
         public Customer()
         {
-            SalesOrderHeader = new HashSet<SalesOrderHeader>();
+            Invoice = new HashSet<Invoice>();
         }
 
         public int CustomerId { get; set; }
-        public int? PersonId { get; set; }
-        public int? StoreId { get; set; }
-        public int? TerritoryId { get; set; }
-        public string AccountNumber { get; set; }
-        public Guid Rowguid { get; set; }
-        public DateTime ModifiedDate { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Company { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
+        public string PostalCode { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+        public string Email { get; set; }
+        public int? SupportRepId { get; set; }
 
-        public virtual Person Person { get; set; }
-        public virtual Store Store { get; set; }
-        public virtual SalesTerritory Territory { get; set; }
-        public virtual ICollection<SalesOrderHeader> SalesOrderHeader { get; set; }
+        public virtual Employee SupportRep { get; set; }
+        public virtual ICollection<Invoice> Invoice { get; set; }
     }
 }

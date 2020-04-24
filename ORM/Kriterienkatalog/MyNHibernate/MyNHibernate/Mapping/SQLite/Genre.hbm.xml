@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.SQLite" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Genre" table="Genre" lazy="true" >
+    <id name="Genreid" column="GenreId" />
+    <property name="Name">
+      <column name="Name" sql-type="NVARCHAR" not-null="false" />
+    </property>
+  </class>
+</hibernate-mapping>

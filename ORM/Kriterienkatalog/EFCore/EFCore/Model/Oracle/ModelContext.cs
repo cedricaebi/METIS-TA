@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace EFCore.Model.Oracle
+/*namespace EFCore.Model.Oracle
 {
     public partial class ModelContext : DbContext
     {
@@ -468,4 +468,4 @@ namespace EFCore.Model.Oracle
             });
         }
     }
-}
+}*/

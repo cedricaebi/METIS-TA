@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.MySQL" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Artist" table="Artist" lazy="true" >
+    <id name="Artistid" column="ArtistId" />
+    <property name="Name">
+      <column name="Name" sql-type="varchar(120)" not-null="false" />
+    </property>
+    <bag name="Album" inverse="true">
+      <key column="" />
+      <one-to-many class="Album" />
+    </bag>
+  </class>
+</hibernate-mapping>

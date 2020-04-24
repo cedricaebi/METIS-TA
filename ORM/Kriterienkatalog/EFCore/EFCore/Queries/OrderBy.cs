@@ -1,8 +1,6 @@
 using System;
 using System.Linq;
-using EFCore.Model.Oracle;
-using EFCore.Model.Postgres;
-using EFCore.Model.SQLite;
+using EFCore.Model.SQLServer;
 
 namespace EFCore.Queries
 {
@@ -10,7 +8,7 @@ namespace EFCore.Queries
     {
         public static void Execute()
         {
-            using var context = new ModelContext();
+            using var context = new ChinookContext();
             var query = context.Album.OrderBy(album => album.Title)
                 .Select(album => album);
                 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.MySQL" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Invoiceline" table="InvoiceLine" lazy="true" >
+    <id name="Invoicelineid" column="InvoiceLineId" />
+    <many-to-one name="Invoice">
+      <column name="InvoiceId" sql-type="int" not-null="true" />
+    </many-to-one>
+    <many-to-one name="Track">
+      <column name="TrackId" sql-type="int" not-null="true" />
+    </many-to-one>
+    <property name="Unitprice">
+      <column name="UnitPrice" sql-type="decimal(10,2)" not-null="true" />
+    </property>
+    <property name="Quantity">
+      <column name="Quantity" sql-type="int" not-null="true" />
+    </property>
+  </class>
+</hibernate-mapping>

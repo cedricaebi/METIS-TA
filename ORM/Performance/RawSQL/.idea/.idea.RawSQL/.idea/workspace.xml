@@ -1,229 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e5f39768-e524-4ff3-8bff-acc7c0cf7a98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Album.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Artist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Genre.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Invoice.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Invoiceline.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Mediatype.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Playlist.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Playlisttrack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Track.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Album.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Artist.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Genre.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Invoice.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Invoiceline.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Mediatype.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Playlist.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Playlisttrack.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Track.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Queries/GroupByQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Queries/JoinQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Queries/OrderBy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Queries/SelectQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Queries/SubQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyLinq2DB/MyLinq2DB/obj/Debug/netcoreapp3.1/MyLinq2DB.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/.idea/.idea.MyNHibernate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Address.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Addresstype.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Billofmaterials.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Businessentity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Businessentityaddress.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Businessentitycontact.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Contacttype.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Countryregion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Countryregioncurrency.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Creditcard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Culture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Currency.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Currencyrate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Customer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Department.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Employeepayhistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Illustration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Jobcandidate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Location.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Password.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Person.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Personcreditcard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Personphone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Phonenumbertype.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Product.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productcategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productcosthistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productdescription.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productdocument.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productinventory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productlistpricehistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productmodel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productmodelillustration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productmodelproductdescriptionculture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productphoto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productproductphoto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productreview.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productsubcategory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Productvendor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Purchaseorderdetail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Purchaseorderheader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesorderdetail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesorderheader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesorderheadersalesreason.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesperson.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salespersonquotahistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesreason.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salestaxrate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesterritory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Salesterritoryhistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Scrapreason.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Shift.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Shipmethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Shoppingcartitem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Specialoffer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Specialofferproduct.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Stateprovince.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Store.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Transactionhistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Transactionhistoryarchive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Unitmeasure.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vadditionalcontactinfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vemployee.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vemployeedepartment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vemployeedepartmenthistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vendor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vindividualcustomer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vjobcandidate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vjobcandidateeducation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vjobcandidateemployment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vpersondemographics.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vproductanddescription.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vproductmodelcatalogdescription.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vproductmodelinstructions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vsalesperson.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vsalespersonsalesbyfiscalyears.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vstateprovincecountryregion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vstorewithaddresses.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vstorewithcontacts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vstorewithdemographics.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vvendorwithaddresses.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Vvendorwithcontacts.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Workorder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Workorderrouting.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Address.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Addresstype.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Billofmaterials.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Businessentity.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Businessentityaddress.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Businessentitycontact.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Contacttype.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Countryregion.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Countryregioncurrency.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Creditcard.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Culture.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Currency.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Currencyrate.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Customer.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Department.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Employee.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Employee.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Employeepayhistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Illustration.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Jobcandidate.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Location.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Password.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Person.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Personcreditcard.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Personphone.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Phonenumbertype.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Product.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productcategory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productcosthistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productdescription.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productdocument.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productinventory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productlistpricehistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productmodel.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productmodelillustration.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productmodelproductdescriptionculture.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productphoto.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productproductphoto.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productreview.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productsubcategory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Productvendor.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Purchaseorderdetail.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Purchaseorderheader.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesorderdetail.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesorderheader.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesorderheadersalesreason.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesperson.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salespersonquotahistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesreason.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salestaxrate.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesterritory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Salesterritoryhistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Scrapreason.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Shift.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Shipmethod.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Shoppingcartitem.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Specialoffer.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Specialofferproduct.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Stateprovince.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Store.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Transactionhistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Transactionhistoryarchive.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Unitmeasure.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vadditionalcontactinfo.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vemployee.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vemployeedepartment.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vemployeedepartmenthistory.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vendor.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vindividualcustomer.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vjobcandidate.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vjobcandidateeducation.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vjobcandidateemployment.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vpersondemographics.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vproductanddescription.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vproductmodelcatalogdescription.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vproductmodelinstructions.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vsalesperson.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vsalespersonsalesbyfiscalyears.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vstateprovincecountryregion.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vstorewithaddresses.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vstorewithcontacts.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vstorewithdemographics.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vvendorwithaddresses.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Vvendorwithcontacts.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Workorder.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Workorderrouting.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Album.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Album.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Artist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Artist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Genre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Invoice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Invoice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Invoiceline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Invoiceline.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Mediatype.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Mediatype.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Playlist.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Playlist.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Playlisttrack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Playlisttrack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/Track.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Domain/SQLServer/Track.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Album.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Album.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Artist.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Artist.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Employee.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Employee.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Genre.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Genre.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Invoice.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Invoice.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Invoiceline.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Invoiceline.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Mediatype.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Mediatype.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Playlist.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Playlist.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Playlisttrack.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Playlisttrack.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/Track.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Mapping/SQLServer/Track.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/MyNHibernate.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/MyNHibernate.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/MyNHibernate.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kriterienkatalog/MyNHibernate/MyNHibernate/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RawSQL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RawSQL/obj/Debug/netcoreapp3.1/RawSQL.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawSQL/obj/RawSQL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RawSQL/obj/RawSQL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawSQL/obj/RawSQL.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RawSQL/obj/RawSQL.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawSQL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RawSQL/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RawSQL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RawSQL/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,6 +170,7 @@
       <workItem from="1587312798367" duration="24000" />
       <workItem from="1587667703543" duration="135000" />
       <workItem from="1587668027847" duration="1962000" />
+      <workItem from="1587718352111" duration="549000" />
     </task>
     <servers />
   </component>

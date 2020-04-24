@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.Postgre" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Employee" table="Employee" lazy="true" >
+    <id name="Employeeid" column="EmployeeId" />
+    <property name="Address">
+      <column name="Address" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Hiredate">
+      <column name="HireDate" sql-type="timestamp without time zone" not-null="false" />
+    </property>
+    <property name="Fax">
+      <column name="Fax" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Phone">
+      <column name="Phone" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Reportsto">
+      <column name="ReportsTo" sql-type="integer" not-null="false" />
+    </property>
+    <property name="Birthdate">
+      <column name="BirthDate" sql-type="timestamp without time zone" not-null="false" />
+    </property>
+    <property name="Lastname">
+      <column name="LastName" sql-type="character varying" not-null="true" />
+    </property>
+    <property name="Title">
+      <column name="Title" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="State">
+      <column name="State" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Postalcode">
+      <column name="PostalCode" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="City">
+      <column name="City" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Firstname">
+      <column name="FirstName" sql-type="character varying" not-null="true" />
+    </property>
+    <property name="Email">
+      <column name="Email" sql-type="character varying" not-null="false" />
+    </property>
+    <property name="Country">
+      <column name="Country" sql-type="character varying" not-null="false" />
+    </property>
+    <bag name="Customer" inverse="true">
+      <key column="" />
+      <one-to-many class="Customer" />
+    </bag>
+    <bag name="Blub" inverse="true">
+      <key column="ReportsTo" />
+      <one-to-many class="Employee" />
+    </bag>
+  </class>
+</hibernate-mapping>

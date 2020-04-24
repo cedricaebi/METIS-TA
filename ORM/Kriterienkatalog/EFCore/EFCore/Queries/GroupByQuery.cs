@@ -4,6 +4,8 @@ using EFCore.Model;
 using EFCore.Model.Oracle;
 using EFCore.Model.Postgres;
 using EFCore.Model.SQLite;
+using EFCore.Model.DB2;
+using EFCore.Model.SQLServer;
 
 namespace EFCore.Queries
 {
@@ -11,25 +13,15 @@ namespace EFCore.Queries
     {
         public static void Execute()
         {
-            using var context = new ModelContext();
+            using var context = new ChinookContext();
             
-            /*EFCore 3.0
             var query = context.Album.GroupBy(album => album.ArtistId)
                 .Select(group => new
                 {
                     Count = group.Count(),
                     ArtisID = group.Key
                 });
-            */
-            
-            //EFcore 2.0
-            var query = context.Album.GroupBy(album => album.Artistid)
-                .Select(group => new
-                {
-                    Count = group.Count(),
-                    ArtisID = group.Key
-                });
-            
+
             Console.WriteLine("GROUPBY-----");
             
             foreach (var albumGroup in query)

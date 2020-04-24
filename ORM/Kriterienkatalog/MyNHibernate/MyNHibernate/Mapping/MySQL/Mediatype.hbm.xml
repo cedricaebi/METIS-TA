@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="MyNHibernate" namespace="MyNHibernate.Domain.MySQL" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Mediatype" table="MediaType" lazy="true" >
+    <id name="Mediatypeid" column="MediaTypeId" />
+    <property name="Name">
+      <column name="Name" sql-type="varchar(120)" not-null="false" />
+    </property>
+    <bag name="Track" inverse="true">
+      <key column="" />
+      <one-to-many class="Track" />
+    </bag>
+  </class>
+</hibernate-mapping>

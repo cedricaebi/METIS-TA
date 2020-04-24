@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/MyDapper.csproj",
+    "projectUniqueName": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/MyDapper.csproj",
     "projectName": "MyDapper",
-    "projectPath": "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/MyDapper.csproj",
-    "outputPath": "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/obj/",
+    "projectPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/MyDapper.csproj",
+    "outputPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

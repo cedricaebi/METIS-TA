@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/MyDapper.csproj": {}
+    "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/MyDapper.csproj": {}
   },
   "projects": {
-    "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/MyDapper.csproj": {
+    "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/MyDapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/MyDapper.csproj",
+        "projectUniqueName": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/MyDapper.csproj",
         "projectName": "MyDapper",
-        "projectPath": "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/MyDapper.csproj",
+        "projectPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/MyDapper.csproj",
         "packagesPath": "/Users/cedric/.nuget/packages/",
-        "outputPath": "/Users/cedric/Documents/repos/TA/MyDapper/MyDapper/obj/",
+        "outputPath": "/Users/cedric/Documents/repos/METIS-TA/ORM/Kriterienkatalog/MyDapper/MyDapper/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/cedric/.config/NuGet/NuGet.Config"
+          "/Users/cedric/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
