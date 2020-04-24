@@ -12,7 +12,7 @@ namespace MyNHibernate.Queries
             using var session = sessionFactory.OpenSession();
             using var tx = session.BeginTransaction();
             //perform database logic 
-            var query = session.CreateQuery("select Title from Album").List();
+            var query = session.CreateQuery("from MyClass").List();
             tx.Commit();
 
             Console.WriteLine("SELECT-----");

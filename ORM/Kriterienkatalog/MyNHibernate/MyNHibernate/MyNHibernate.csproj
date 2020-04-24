@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <EmbeddedResource Include="Mapping\MySQL\Album.hbm.xml" />
+        <!--EmbeddedResource Include="Mapping\MySQL\Album.hbm.xml" />
         <EmbeddedResource Include="Mapping\MySQL\Artist.hbm.xml" />
         <EmbeddedResource Include="Mapping\MySQL\Customer.hbm.xml" />
         <EmbeddedResource Include="Mapping\MySQL\Employee.hbm.xml" />
@@ -29,7 +29,7 @@
         <EmbeddedResource Include="Mapping\MySQL\Playlisttrack.hbm.xml" />
         <EmbeddedResource Include="Mapping\MySQL\Track.hbm.xml" />
         <None Remove="Mapping/*.hbm.xml" />
-        <EmbeddedResource Include="Mapping/*.hbm.xml" />
+        <EmbeddedResource Include="Mapping/*.hbm.xml" /-->
     </ItemGroup>
 
 </Project>
