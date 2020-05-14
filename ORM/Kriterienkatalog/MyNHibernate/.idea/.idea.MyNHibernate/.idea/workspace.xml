@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1747ccd-440a-4bc3-b9c2-6a388e344973" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyNHibernate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyNHibernate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/MyNHibernate.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/MyNHibernate.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/Queries/SelectQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/Queries/SelectQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/bin/Debug/netcoreapp3.1/MyNHibernate.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyNHibernate/obj/Debug/netcoreapp3.1/MyNHibernate.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="e1747ccd-440a-4bc3-b9c2-6a388e344973" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,6 +191,7 @@
       <workItem from="1587718354200" duration="6017000" />
       <workItem from="1587726866165" duration="969000" />
       <workItem from="1587740111789" duration="2176000" />
+      <workItem from="1588063489363" duration="8000" />
     </task>
     <servers />
   </component>
